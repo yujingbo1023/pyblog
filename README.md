@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: Python全能开发
+tagline: 一起来玩Python呀.
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',

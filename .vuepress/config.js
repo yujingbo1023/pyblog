@@ -20,6 +20,7 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    subSidebar: "auto",
     "nav": [
       {
         "text": "Home",
@@ -65,7 +66,7 @@ module.exports = {
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
+        "text": "Python"
       },
       "tag": {
         "location": 3,
@@ -80,8 +81,8 @@ module.exports = {
         "link": "https://www.recoluan.com"
       },
       {
-        "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
+        "title": "Python全能开发",
+        "desc": "大家一起来玩Python哟~",
         "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
         "link": "https://vuepress-theme-reco.recoluan.com"
       }
