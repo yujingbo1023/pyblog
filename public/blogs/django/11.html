@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>11-项目部署 | python全能开发</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/pyblog/public/favicon.ico">
+    <meta name="description" content="快来玩python呀">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/pyblog/public/assets/css/0.styles.622e361c.css" as="style"><link rel="preload" href="/pyblog/public/assets/js/app.33b33158.js" as="script"><link rel="preload" href="/pyblog/public/assets/js/4.2d1ead4f.js" as="script"><link rel="preload" href="/pyblog/public/assets/js/1.c066e305.js" as="script"><link rel="preload" href="/pyblog/public/assets/js/7.44b005e6.js" as="script"><link rel="prefetch" href="/pyblog/public/assets/js/10.425c9980.js"><link rel="prefetch" href="/pyblog/public/assets/js/11.8f6716cf.js"><link rel="prefetch" href="/pyblog/public/assets/js/12.1bebc008.js"><link rel="prefetch" href="/pyblog/public/assets/js/13.5350acee.js"><link rel="prefetch" href="/pyblog/public/assets/js/14.7865b052.js"><link rel="prefetch" href="/pyblog/public/assets/js/15.ccf92ae2.js"><link rel="prefetch" href="/pyblog/public/assets/js/16.7ea727c2.js"><link rel="prefetch" href="/pyblog/public/assets/js/17.9dd8bd36.js"><link rel="prefetch" href="/pyblog/public/assets/js/18.19a520a7.js"><link rel="prefetch" href="/pyblog/public/assets/js/19.df915b09.js"><link rel="prefetch" href="/pyblog/public/assets/js/20.5ded77f4.js"><link rel="prefetch" href="/pyblog/public/assets/js/21.d1bb8da4.js"><link rel="prefetch" href="/pyblog/public/assets/js/22.350114a1.js"><link rel="prefetch" href="/pyblog/public/assets/js/23.088b4b6f.js"><link rel="prefetch" href="/pyblog/public/assets/js/24.bd28df17.js"><link rel="prefetch" href="/pyblog/public/assets/js/25.1f8d7730.js"><link rel="prefetch" href="/pyblog/public/assets/js/26.b86d2429.js"><link rel="prefetch" href="/pyblog/public/assets/js/27.64685160.js"><link rel="prefetch" href="/pyblog/public/assets/js/28.31f19d5c.js"><link rel="prefetch" href="/pyblog/public/assets/js/29.92ebc30b.js"><link rel="prefetch" href="/pyblog/public/assets/js/3.642efc2d.js"><link rel="prefetch" href="/pyblog/public/assets/js/30.38a4f4d4.js"><link rel="prefetch" href="/pyblog/public/assets/js/31.e08e376c.js"><link rel="prefetch" href="/pyblog/public/assets/js/32.d22af594.js"><link rel="prefetch" href="/pyblog/public/assets/js/33.a54c97f5.js"><link rel="prefetch" href="/pyblog/public/assets/js/34.fa7270e0.js"><link rel="prefetch" href="/pyblog/public/assets/js/35.93596a7d.js"><link rel="prefetch" href="/pyblog/public/assets/js/36.e6171f22.js"><link rel="prefetch" href="/pyblog/public/assets/js/37.e6d9a04c.js"><link rel="prefetch" href="/pyblog/public/assets/js/38.df924943.js"><link rel="prefetch" href="/pyblog/public/assets/js/39.05bcbd58.js"><link rel="prefetch" href="/pyblog/public/assets/js/40.7ee5194e.js"><link rel="prefetch" href="/pyblog/public/assets/js/41.977f119e.js"><link rel="prefetch" href="/pyblog/public/assets/js/42.ba235841.js"><link rel="prefetch" href="/pyblog/public/assets/js/43.3048680d.js"><link rel="prefetch" href="/pyblog/public/assets/js/44.a69e4c80.js"><link rel="prefetch" href="/pyblog/public/assets/js/45.f5d1e121.js"><link rel="prefetch" href="/pyblog/public/assets/js/46.c0453be1.js"><link rel="prefetch" href="/pyblog/public/assets/js/47.13186803.js"><link rel="prefetch" href="/pyblog/public/assets/js/48.58991160.js"><link rel="prefetch" href="/pyblog/public/assets/js/49.1eddeb85.js"><link rel="prefetch" href="/pyblog/public/assets/js/5.9cdacfc9.js"><link rel="prefetch" href="/pyblog/public/assets/js/50.7e2e264f.js"><link rel="prefetch" href="/pyblog/public/assets/js/51.e011a323.js"><link rel="prefetch" href="/pyblog/public/assets/js/6.726a9c0c.js"><link rel="prefetch" href="/pyblog/public/assets/js/8.4e5ef80a.js"><link rel="prefetch" href="/pyblog/public/assets/js/9.f6977216.js">
+    <link rel="stylesheet" href="/pyblog/public/assets/css/0.styles.622e361c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>python全能开发</h3> <p class="description" data-v-59e6cb88>快来玩python呀</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>于景波</span>
+          
+        <span data-v-59e6cb88>2017 - </span>
+        2023
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/pyblog/public/" class="home-link router-link-active"><img src="/pyblog/public/logo.png" alt="python全能开发" class="logo"> <span class="site-name">python全能开发</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/pyblog/public/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Python
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/algorithm/" class="nav-link"><i class="undefined"></i>
+  algorithm
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/base/" class="nav-link"><i class="undefined"></i>
+  base
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/crawler/" class="nav-link"><i class="undefined"></i>
+  crawler
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/django/" class="nav-link"><i class="undefined"></i>
+  django
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/flask/" class="nav-link"><i class="undefined"></i>
+  flask
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/interview/" class="nav-link"><i class="undefined"></i>
+  interview
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/mysql/" class="nav-link"><i class="undefined"></i>
+  mysql
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/oop/" class="nav-link"><i class="undefined"></i>
+  oop
+</a></li></ul></div></div><div class="nav-item"><a href="/pyblog/public/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/pyblog/public/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Docs
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pyblog/public/docs/theme-reco/" class="nav-link"><i class="undefined"></i>
+  vuepress-reco
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Contact
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/recoluan" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><img src="/pyblog/public/avatar.png" alt="author-avatar" class="personal-img" data-v-1fad0c41> <h3 class="name" data-v-1fad0c41>
+    于景波
+  </h3> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>41</h3> <h6 data-v-1fad0c41>Articles</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>6</h3> <h6 data-v-1fad0c41>Tags</h6></div></div> <ul class="social-links" data-v-1fad0c41></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/pyblog/public/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Python
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/algorithm/" class="nav-link"><i class="undefined"></i>
+  algorithm
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/base/" class="nav-link"><i class="undefined"></i>
+  base
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/crawler/" class="nav-link"><i class="undefined"></i>
+  crawler
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/django/" class="nav-link"><i class="undefined"></i>
+  django
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/flask/" class="nav-link"><i class="undefined"></i>
+  flask
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/interview/" class="nav-link"><i class="undefined"></i>
+  interview
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/mysql/" class="nav-link"><i class="undefined"></i>
+  mysql
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/oop/" class="nav-link"><i class="undefined"></i>
+  oop
+</a></li></ul></div></div><div class="nav-item"><a href="/pyblog/public/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/pyblog/public/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Docs
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pyblog/public/docs/theme-reco/" class="nav-link"><i class="undefined"></i>
+  vuepress-reco
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Contact
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/recoluan" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>11-项目部署</h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>于景波</span>
+          
+        <span data-v-59e6cb88>2017 - </span>
+        2023
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">11-项目部署</h1> <div data-v-8a445198><i class="iconfont reco-account" data-v-8a445198><span data-v-8a445198>于景波</span></i> <i class="iconfont reco-date" data-v-8a445198><span data-v-8a445198>12/15/2028</span></i> <!----> <i class="tags iconfont reco-tag" data-v-8a445198><span class="tag-item" data-v-8a445198>django</span></i></div></div> <div class="theme-reco-content content__default"><h1 id="项目部署"><a href="#项目部署" class="header-anchor">#</a> 项目部署</h1> <p><img src="/pyblog/public/assets/img/image-20220827173728024.a93d1fff.png" alt="image-20220827173728024"></p> <p>想要将django项目部署在服务器上，本质上需要三大部分：</p> <ul><li>将代码上传到服务器</li> <li>在服务器上 获取代码、安装服务、配置环境</li> <li>启动服务</li></ul> <h2 id="_1-代码同步"><a href="#_1-代码同步" class="header-anchor">#</a> 1. 代码同步</h2> <p>上传代码的方式有很多种，例如：FTP工具、scp命令、rsync服务、svn等，不过目前公司主流的都是使用git+代码托管平台。</p> <p><img src="/pyblog/public/assets/img/image-20220827155724267.cc4a3ea5.png" alt="image-20220827155724267"></p> <ul><li>本地电脑，安装git并使用git命令上传代码。</li> <li>代码仓库，创建仓库。</li> <li>服务器，安装git并使用git命令获取最新代码。</li></ul> <h3 id="_1-1-本地上传"><a href="#_1-1-本地上传" class="header-anchor">#</a> 1.1 本地上传</h3> <p>在本地电脑上本质上需要执行如下步骤：</p> <ul><li>全局配置</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>  git config --global user.name &quot;admin&quot;
+  git config --global user.email &quot;admin@live.com&quot;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ul><li><p>进入项目目录</p> <ul><li>初始化</li></ul></li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>    git init
+    ```
+
+  + 配置远程地址
+
+    
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><div class="language- extra-class"><pre><code>git remote add origin https://gitee.com/admin/xxxxx.git
+```
+</code></pre></div><ul><li>本地版本提交</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>    git add .
+    git commit -m '提交说明...'
+    ```
+
+  + 提交到远程仓库
+
+    
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><div class="language- extra-class"><pre><code>git push origin master
+```
+</code></pre></div><p>这样虽然能操作，但是会有两个小问题：</p> <ul><li>项目中所有数据都提交了，如果仓库是公开的，有些敏感数据会泄露。</li> <li>每次提交都需要输入密码，太烦了。</li></ul> <h4 id="_1-1-1-gitignore"><a href="#_1-1-1-gitignore" class="header-anchor">#</a> 1.1.1 gitignore</h4> <p>在项目中创建一个 <code>.gitignore</code> 的文件，在里面写上文件名或文件夹，可以git忽略一些文件，不要进行版本控制。</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>https://github.com/github/gitignore/blob/main/Python.gitignore
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p><img src="/pyblog/public/assets/img/image-20220827162115118.addf39d3.png" alt="image-20220827162115118"></p> <p>将Python的ignore文件内存拷贝并保存至项目目录下。</p> <p><img src="/pyblog/public/assets/img/image-20220827162918021.2ff669ad.png" alt="image-20220827162918021"></p> <p>这样，就可以控制git忽略某些文件。</p> <p>学会这个知识点之后，接下来再来讲一个关于配置文件的常见操作，即：local_settings.py</p> <p><img src="/pyblog/public/assets/img/image-20220827163230562.f1688a96.png" alt="image-20220827163230562"></p> <p>如果本次开发和线上开发一些配置不同，就可以放在这个文件。</p> <ul><li>本地：local_settings.py 编写本地特有配置。</li> <li>线上：local_settings.py 编写线上特有配置。</li></ul> <p>而在settings.py中编写所有环境都有的配置。</p> <h4 id="_1-1-2-密码或秘钥"><a href="#_1-1-2-密码或秘钥" class="header-anchor">#</a> 1.1.2 密码或秘钥</h4> <p>本地提交代码时，每次需要输入密码 &amp; 线上服务器拉去代码时，每次也需要输入密码。</p> <ul><li>固定用户名和密码</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>  git remote remove origin
+  git remote add origin https://用户名:密码@gitee.com/admin/xxxxx.git
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ul><li><p>使用SSH</p> <ul><li>使用ssh-keygen命令，生成一对秘钥（公钥和私钥）</li></ul></li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>    ssh-keygen -t rsa
+    ```
+
+    
+
+![image-20220827170804751](./assets/image-20220827170804751.png)
+
+  + 读取公钥 `~/.ssh/id_rsa.pub`内容并上传到代码托管仓库
+
+    
+
+![image-20220827171132396](./assets/image-20220827171132396.png)
+
+    
+
+![image-20220827171148768](./assets/image-20220827171148768.png)
+
+  + 推拉数据
+
+    
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div><div class="language- extra-class"><pre><code>git remote add origin git@gitee.com:admin/xxxxx.git
+git push origin master
+```
+</code></pre></div><div class="language- line-numbers-mode"><pre class="language-text"><code>    git clone git@gitee.com:admin/xxxxx.git
+    ```
+
+    
+
+![image-20220827171256782](./assets/image-20220827171256782.png)
+
+#### 1.1.3 关于版本（赠送）
+
+在本地的git每次执行commit命令时，都会生成一个提交记录，如果执行git push也会将记录提交到代码仓库。
+
+![image-20220827171922035](./assets/image-20220827171922035.png)
+
+![image-20220827172019683](./assets/image-20220827172019683.png)
+
+可以通过命令实现在各个版本之间进行切换：
+
+* 查看提交记录
+
+  
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div><p>git log</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>
+* 查看提交记录
+
+
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>git reflog</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>
+* 跳转至指定版本
+
+
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>git reset --hard fa1653b6cd5ed1ff12ef1acdf534e91b9b895604</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>
+注意：此命令可以在本地、线上执行，以此来切换到各种版本。
+
+### 1.2 线上同步
+
+登录线上服务器并获取代码，本质上需要以下三个步骤：
+
+* 基于SSH或web页面登录服务器
+
+
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><ul><li>云平台网页版：支持登录并进行命令交互（不便捷，不推荐）。</li> <li>SSH工具，连接比较方便（推荐）
+<ul><li>win：xshell、SecureCRT</li> <li>mac：iTerm2</li></ul></li></ul> <p>注意：如果使用SSH工具连接远程服务器的话，需要在云平台的的安全组开启22端口权限。</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>
+* 安装git
+
+* 进入项目克隆或拉取代码
+
+
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>基于用户名和密码：
+git clone https://gitee.com/admin/xxxxx.git</p> <p>基于用户名和密码：
+git clone https://用户名:密码@gitee.com/admin/xxxxx.git</p> <p>基于秘钥：
+&gt;&gt;&gt;ssh-keygen -t rsa
+&gt;&gt;&gt;cat ~/.ssh/id_rsa.pub
+&gt;&gt;&gt;拷贝公钥到代码仓库
+&gt;&gt;&gt;git clone git@gitee.com:admin/xxxxx.git</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>
+![image-20220827180810077](./assets/image-20220827180810077.png)
+
+![image-20220827180930123](./assets/image-20220827180930123.png)
+
+#### 1.2.1 SSH密码+下载代码
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><blockquote><blockquote><blockquote><p>ssh root@82.156.54.134
+cd /data/
+git clone https://gitee.com/admin/xxxxx.git</p></blockquote></blockquote></blockquote> <div class="language- line-numbers-mode"><pre class="language-text"><code>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><blockquote><blockquote><blockquote><p>cat ~/.ssh/id_rsa.pub
+拷贝公钥放到代码仓库
+cd /data/
+git clone git@gitee.com:admin/xxxxx.git</p></blockquote></blockquote></blockquote> <div class="language- line-numbers-mode"><pre class="language-text"><code>
+![image-20220827181141286](./assets/image-20220827181141286.png)
+
+#### 1.2.2 SSH秘钥+下载代码
+
+在我们本地想要通过SSH连接服务器，每次连接都输入密码也觉得比较烦，此时也可以使用秘钥的方式直接连接服务器。
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><blockquote><blockquote><blockquote><p>ssh-keygen -t rsa    这个命令不需要做了，因为在之前git上传代码时已执行过（已有公钥和私钥）</p></blockquote></blockquote></blockquote> <div class="language- line-numbers-mode"><pre class="language-text"><code>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><blockquote><blockquote><blockquote><p>ssh-copy-id  -i ~/.ssh/id_rsa.pub root@82.156.54.134</p></blockquote></blockquote></blockquote> <div class="language- line-numbers-mode"><pre class="language-text"><code>
+![image-20220827181844784](./assets/image-20220827181844784.png)
+
+那么以后再想要登录远程服务器，就不需要再输入账户和密码了，直接输入：
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><blockquote><blockquote><blockquote><p>ssh root@82.156.54.134</p></blockquote></blockquote></blockquote> <div class="language- line-numbers-mode"><pre class="language-text"><code>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><blockquote><blockquote><blockquote><p>cd /data/
+git clone https://gitee.com/admin/xxxxx.git</p></blockquote></blockquote></blockquote> <div class="language- line-numbers-mode"><pre class="language-text"><code>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><blockquote><blockquote><blockquote><p>cat ~/.ssh/id_rsa.pub
+拷贝公钥放到代码仓库
+cd /data/
+git clone git@gitee.com:admin/xxxxx.git</p></blockquote></blockquote></blockquote> <div class="language- line-numbers-mode"><pre class="language-text"><code>
+![image-20220828103502293](./assets/image-20220828103502293.png)
+
+## 2. 服务和环境配置
+
+下面的配置和操作均在腾讯云服务器+CentOS 7.5的系统下进行。
+
+### 2.1 MySQL
+
+* 安装服务端
+
+  
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><p>yum install mariadb-server -y</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>
+
+
+```python
+mariadb-server.x86_64 1:5.5.68-1.el7
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ul><li>安装客户端</li></ul> <div class="language-python line-numbers-mode"><pre class="language-python"><code>  yum install mariadb <span class="token operator">-</span>y
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><div class="language-python line-numbers-mode"><pre class="language-python"><code>  软件包 <span class="token number">1</span><span class="token punctuation">:</span>mariadb<span class="token operator">-</span><span class="token number">5.5</span><span class="token number">.68</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">.</span>el7<span class="token punctuation">.</span>x86_64 已安装并且是最新版本
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>服务配置
+<ul><li>启动</li></ul></li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>    systemctl start mariadb
+    ```
+
+  + 设置开机启动
+
+    
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><div class="language- extra-class"><pre><code>systemctl enable mariadb
+```
+</code></pre></div><ul><li><p>账号初始化</p> <ul><li>登录</li></ul></li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>    mysql -u root -p
+    ```
+
+  + root设置密码
+
+    
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><div class="language- extra-class"><pre><code>UPDATE user SET password=password('qwe123..') WHERE user='root'; 
+flush privileges;
+```
+</code></pre></div><ul><li>创建用户</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>    insert into mysql.user(user,host,password) values('xxx','%',password('qwe123..'));
+    
+    # 或更新密码
+    UPDATE user SET password=password('qwe123..') WHERE user='xxx'; 
+    flush privileges;
+    ```
+
+  + 创建数据库
+
+    
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><div class="language- extra-class"><pre><code>CREATE DATABASE 数据库名 DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
+```
+</code></pre></div><ul><li>授权</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>    grant all privileges on 数据库.* to settle@'%';
+    flush privileges;
+    ```
+
+    
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><div class="language- extra-class"><pre><code>grant all privileges on 数据库.* to tasker@'127.0.0.1';
+flush privileges;
+```
+</code></pre></div><h3 id="_2-2-redis"><a href="#_2-2-redis" class="header-anchor">#</a> 2.2 Redis</h3> <ul><li>安装</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>  yum install redis -y
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>配置</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>  vim /etc/redis.conf
+  
+  ?requirepass
+  设置密码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><ul><li><p>启动</p> <ul><li>启动</li></ul></li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>    systemctl start redis
+    systemctl restart redis
+    ```
+
+  + 开机启动
+
+    
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><div class="language- extra-class"><pre><code>systemctl enable redis
+```
+</code></pre></div><h3 id="_2-3-python3"><a href="#_2-3-python3" class="header-anchor">#</a> 2.3 Python3</h3> <ul><li>安装gcc，用于后续安装Python时编译源码。</li></ul> <div class="language-python line-numbers-mode"><pre class="language-python"><code>  yum install gcc <span class="token operator">-</span>y
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>安装Python3相关依赖</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>  yum install zlib zlib-devel -y
+  yum install bzip2 bzip2-devel  -y
+  yum install ncurses ncurses-devel  -y
+  yum install readline readline-devel  -y
+  yum install openssl openssl-devel  -y
+  yum install xz lzma xz-devel  -y
+  yum install sqlite sqlite-devel  -y
+  yum install gdbm gdbm-devel  -y
+  yum install tk tk-devel  -y
+  yum install mysql-devel -y
+  yum install python-devel -y
+  yum install libffi-devel -y
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><ul><li>下载Python源码，https://www.python.org/ftp/python/</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>  cd /data/
+  wget https://www.python.org/ftp/python/3.9.5/Python-3.9.5.tgz
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>注意：如果没有wget，则先安装 <code>yum install wget</code></p> <ul><li><p>编译安装</p> <ul><li>解压</li></ul></li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>    tar -xvf Python-3.9.5.tgz
+    ```
+
+  + 进入目录并编译安装
+
+    
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><div class="language- extra-class"><pre><code>cd Python-3.9.5
+./configure
+make all
+make install
+```
+</code></pre></div><ul><li>测试</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>    python3 --version
+    
+    /usr/local/bin/python3
+    /usr/local/bin/pip3
+    /usr/local/bin/pip3.9
+    ```
+
+  + 配置豆瓣源（腾讯云服务器，默认腾讯源）
+
+    
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><div class="language- extra-class"><pre><code>pip3.9 config set global.index-url https://pypi.douban.com/simple/
+```
+</code></pre></div><h3 id="_2-4-虚拟环境"><a href="#_2-4-虚拟环境" class="header-anchor">#</a> 2.4 虚拟环境</h3> <ul><li>安装虚拟环境</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>  pip3.9 install virtualenv
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>创建虚拟环境目录并创建虚拟环境</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>  mkdir /envs
+  virtualenv /envs/nb --python=python3.9
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ul><li>安装项目依赖的pip包</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>  source /envs/nb/bin/activate
+  cd /data/www/nb/
+  pip install -r requirements.txt
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="_2-5-拉取代码和配置"><a href="#_2-5-拉取代码和配置" class="header-anchor">#</a> 2.5 拉取代码和配置</h3> <p>当上述环境准备好之后，接下来需要在线上服务器上做以下步骤：</p> <ul><li><p>获取最新代码</p></li> <li><p>安装第三方包</p></li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>  source /envs/nb/bin/activate
+  pip install -r requirements.txt
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ul><li>local_settings.py设置线上配置</li></ul> <div class="language-python line-numbers-mode"><pre class="language-python"><code>  <span class="token keyword">import</span> os
+  <span class="token keyword">from</span> pathlib <span class="token keyword">import</span> Path
+  
+  BASE_DIR <span class="token operator">=</span> Path<span class="token punctuation">(</span>__file__<span class="token punctuation">)</span><span class="token punctuation">.</span>resolve<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>parent<span class="token punctuation">.</span>parent<span class="token punctuation">.</span>parent
+  
+  DEBUG <span class="token operator">=</span> <span class="token boolean">False</span>
+  
+  ALLOWED_HOSTS <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'*'</span><span class="token punctuation">]</span>
+  
+  STATIC_ROOT <span class="token operator">=</span> os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>join<span class="token punctuation">(</span>BASE_DIR<span class="token punctuation">,</span><span class="token string">&quot;allstatic&quot;</span><span class="token punctuation">)</span>
+  
+  DATABASES <span class="token operator">=</span> <span class="token punctuation">{</span>
+      <span class="token string">'default'</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+          <span class="token string">'ENGINE'</span><span class="token punctuation">:</span> <span class="token string">'django.db.backends.mysql'</span><span class="token punctuation">,</span>
+  		<span class="token string">'NAME'</span><span class="token punctuation">:</span> <span class="token string">'day06db'</span><span class="token punctuation">,</span>  <span class="token comment"># 数据库名字</span>
+          <span class="token string">'USER'</span><span class="token punctuation">:</span> <span class="token string">'wangchuan'</span><span class="token punctuation">,</span>
+          <span class="token string">'PASSWORD'</span><span class="token punctuation">:</span> <span class="token string">'qwe123..'</span><span class="token punctuation">,</span>
+          <span class="token string">'HOST'</span><span class="token punctuation">:</span> <span class="token string">'127.0.0.1'</span><span class="token punctuation">,</span>  <span class="token comment"># ip</span>
+          <span class="token string">'PORT'</span><span class="token punctuation">:</span> <span class="token number">3306</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  
+  CACHES <span class="token operator">=</span> <span class="token punctuation">{</span>
+      <span class="token string">&quot;default&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+          <span class="token string">&quot;BACKEND&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;django_redis.cache.RedisCache&quot;</span><span class="token punctuation">,</span>
+          <span class="token string">&quot;LOCATION&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;redis://127.0.0.1:6379&quot;</span><span class="token punctuation">,</span>
+          <span class="token string">&quot;OPTIONS&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+              <span class="token string">&quot;CLIENT_CLASS&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;django_redis.client.DefaultClient&quot;</span><span class="token punctuation">,</span>
+              <span class="token string">&quot;CONNECTION_POOL_KWARGS&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token string">&quot;max_connections&quot;</span><span class="token punctuation">:</span> <span class="token number">100</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+              <span class="token string">&quot;PASSWORD&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;qwe123456&quot;</span><span class="token punctuation">,</span>
+          <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br></div></div><ul><li>收集静态文件</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>  python manage.py  collectstatic
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="_2-5-uwsgi"><a href="#_2-5-uwsgi" class="header-anchor">#</a> 2.5 uwsgi</h3> <p>激活虚拟环境并安装uwsgi</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>source /envs/nb/bin/activate
+pip install uwsgi
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>基于uwsgi运行项目</p> <ul><li>命令参数</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>  uwsgi --http :80 --chdir /data/www/xxxxx/ --wsgi-file day06/wsgi.py --master --processes 4 --static-map /static=/data/www/allstatic
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li><p>文件参数</p> <ul><li>创建 day06_uwsgi.ini</li></ul></li></ul> <div class="language-ini line-numbers-mode"><pre class="language-ini"><code>    <span class="token section"><span class="token punctuation">[</span><span class="token section-name selector">uwsgi</span><span class="token punctuation">]</span></span>
+    <span class="token key attr-name">http</span> <span class="token punctuation">=</span> <span class="token value attr-value">0.0.0.0:80</span>
+    <span class="token key attr-name">chdir</span> <span class="token punctuation">=</span> <span class="token value attr-value">/data/www/xxxxx/</span>
+    <span class="token key attr-name">wsgi-file</span> <span class="token punctuation">=</span> <span class="token value attr-value">day06/wsgi.py</span>
+    <span class="token key attr-name">processes</span> <span class="token punctuation">=</span> <span class="token value attr-value">4</span>
+    <span class="token key attr-name">static-map</span> <span class="token punctuation">=</span> <span class="token value attr-value">/static=/data/www/allstatic</span>
+    
+    <span class="token key attr-name">virtualenv</span> <span class="token punctuation">=</span> <span class="token value attr-value">/envs/nb/</span>
+    ```
+
+  + 执行命令
+
+    
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><div class="language- extra-class"><pre><code>uwsgi --ini  day06_uwsgi.ini
+```
+</code></pre></div><h3 id="_2-6-nginx"><a href="#_2-6-nginx" class="header-anchor">#</a> 2.6 nginx</h3> <p>利用nginx做反向代理和处理静态文件。</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>yum install nginx -y
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>修改nginx.conf配置文件：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>user nginx;
+worker_processes auto;
+error_log /var/log/nginx/error.log;
+pid /run/nginx.pid;
+
+# Load dynamic modules. See /usr/share/doc/nginx/README.dynamic.
+include /usr/share/nginx/modules/*.conf;
+
+events {
+    worker_connections 1024;
+}
+
+http {
+    log_format  main  '$remote_addr - $remote_user [$time_local] &quot;$request&quot; '
+                      '$status $body_bytes_sent &quot;$http_referer&quot; '
+                      '&quot;$http_user_agent&quot; &quot;$http_x_forwarded_for&quot;';
+
+    access_log  /var/log/nginx/access.log  main;
+
+    sendfile            on;
+    tcp_nopush          on;
+    tcp_nodelay         on;
+    keepalive_timeout   65;
+    types_hash_max_size 4096;
+
+    include             /etc/nginx/mime.types;
+    default_type        application/octet-stream;
+
+    # Load modular configuration files from the /etc/nginx/conf.d directory.
+    # See http://nginx.org/en/docs/ngx_core_module.html#include
+    # for more information.
+    # include /etc/nginx/conf.d/*.conf;
+
+    upstream django {
+        server 127.0.0.1:8001;
+    }
+
+    server {
+        listen       80;
+        listen       [::]:80;
+        server_name  day06.pythonav.com;
+
+        # Load configuration files for the default server block.
+        # include /etc/nginx/default.d/*.conf;
+
+		location /static {
+            alias  /data/www/allstatic/;
+        }
+
+        location / {
+            uwsgi_pass  django;
+            include     uwsgi_params;
+        }
+
+    }
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br></div></div><p>修改uwsgi配置（day06_uwsgi）：</p> <div class="language-ini line-numbers-mode"><pre class="language-ini"><code><span class="token section"><span class="token punctuation">[</span><span class="token section-name selector">uwsgi</span><span class="token punctuation">]</span></span>
+<span class="token key attr-name">socket</span> <span class="token punctuation">=</span> <span class="token value attr-value">127.0.0.1:9000</span>
+<span class="token key attr-name">chdir</span> <span class="token punctuation">=</span> <span class="token value attr-value">/data/www/xxxxx/</span>
+<span class="token key attr-name">wsgi-file</span> <span class="token punctuation">=</span> <span class="token value attr-value">day06/wsgi.py</span>
+<span class="token key attr-name">processes</span> <span class="token punctuation">=</span> <span class="token value attr-value">4</span>
+<span class="token key attr-name">virtualenv</span> <span class="token punctuation">=</span> <span class="token value attr-value">/envs/video_killer/</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>接下来就需要启动uwsgi和nginx：</p> <ul><li>nginx</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>  # 启动
+  systemctl start nginx
+  
+  # 开机启动
+  systemctl enable nginx
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ul><li>uwsgi</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>  uwsgi --ini  day06_uwsgi.ini
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>每次启动都比较麻烦，怎么办？</p> <h3 id="_2-7-shell脚本"><a href="#_2-7-shell脚本" class="header-anchor">#</a> 2.7 shell脚本</h3> <h4 id="_2-7-1-reboot-sh"><a href="#_2-7-1-reboot-sh" class="header-anchor">#</a> 2.7.1 reboot.sh</h4> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token shebang important">#!/usr/bin/env bash</span>
+
+<span class="token builtin class-name">echo</span> <span class="token parameter variable">-e</span> <span class="token string">&quot;<span class="token entity" title="\033">\033</span>[34m--------------------wsgi process--------------------<span class="token entity" title="\033">\033</span>[0m&quot;</span>
+
+<span class="token function">ps</span> -ef<span class="token operator">|</span><span class="token function">grep</span> uwsgi_day06.ini <span class="token operator">|</span> <span class="token function">grep</span> <span class="token parameter variable">-v</span> <span class="token function">grep</span>
+
+<span class="token function">sleep</span> <span class="token number">0.5</span>
+
+<span class="token builtin class-name">echo</span> <span class="token parameter variable">-e</span> <span class="token string">'\n--------------------going to close--------------------'</span>
+
+<span class="token function">ps</span> <span class="token parameter variable">-ef</span> <span class="token operator">|</span><span class="token function">grep</span> uwsgi_day06.ini <span class="token operator">|</span> <span class="token function">grep</span> <span class="token parameter variable">-v</span> <span class="token function">grep</span> <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print $2}'</span> <span class="token operator">|</span> <span class="token function">xargs</span> <span class="token function">kill</span> <span class="token parameter variable">-9</span>
+
+<span class="token function">sleep</span> <span class="token number">0.5</span>
+
+<span class="token builtin class-name">echo</span> <span class="token parameter variable">-e</span> <span class="token string">'\n----------check if the kill action is correct----------'</span>
+
+/envs/day06/bin/uwsgi  <span class="token parameter variable">--ini</span> uwsgi_day06.ini <span class="token operator">&amp;</span>  <span class="token operator">&gt;</span>/dev/null
+
+<span class="token builtin class-name">echo</span> <span class="token parameter variable">-e</span> <span class="token string">'\n\033[42;1m----------------------started...----------------------\033[0m'</span>
+<span class="token function">sleep</span> <span class="token number">1</span>
+
+<span class="token function">ps</span> <span class="token parameter variable">-ef</span> <span class="token operator">|</span><span class="token function">grep</span> uwsgi_day06.ini <span class="token operator">|</span> <span class="token function">grep</span> <span class="token parameter variable">-v</span> <span class="token function">grep</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code>chmod 755 reboot.sh
+./reboot.sh
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="_2-7-2-stop-sh"><a href="#_2-7-2-stop-sh" class="header-anchor">#</a> 2.7.2 stop.sh</h4> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token shebang important">#!/usr/bin/env bash</span>
+
+<span class="token builtin class-name">echo</span> <span class="token parameter variable">-e</span> <span class="token string">&quot;<span class="token entity" title="\033">\033</span>[34m--------------------wsgi process--------------------<span class="token entity" title="\033">\033</span>[0m&quot;</span>
+
+<span class="token function">ps</span> <span class="token parameter variable">-ef</span> <span class="token operator">|</span><span class="token function">grep</span> uwsgi_day06.ini <span class="token operator">|</span> <span class="token function">grep</span> <span class="token parameter variable">-v</span> <span class="token function">grep</span>
+
+<span class="token function">sleep</span> <span class="token number">0.5</span>
+
+<span class="token builtin class-name">echo</span> <span class="token parameter variable">-e</span> <span class="token string">'\n--------------------going to close--------------------'</span>
+
+<span class="token function">ps</span> <span class="token parameter variable">-ef</span> <span class="token operator">|</span><span class="token function">grep</span> uwsgi_day06.ini <span class="token operator">|</span> <span class="token function">grep</span> <span class="token parameter variable">-v</span> <span class="token function">grep</span> <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print $2}'</span> <span class="token operator">|</span> <span class="token function">xargs</span> <span class="token function">kill</span> <span class="token parameter variable">-9</span>
+
+<span class="token function">sleep</span> <span class="token number">0.5</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><h4 id="_2-7-3-uwsgi"><a href="#_2-7-3-uwsgi" class="header-anchor">#</a> 2.7.3 uwsgi</h4> <p>uwsgi_day06.ini</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>[uwsgi]
+socket = 127.0.0.1:8001
+chdir = /data/www/day06/
+wsgi-file = day06/wsgi.py
+processes = 1
+virtualenv = /envs/day06/
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="_2-8-域名和解析"><a href="#_2-8-域名和解析" class="header-anchor">#</a> 2.8 域名和解析</h3> <h4 id="_2-8-1-购买域名"><a href="#_2-8-1-购买域名" class="header-anchor">#</a> 2.8.1 购买域名</h4> <p><img src="/pyblog/public/assets/img/image-20220322121538743.7d696068.png" alt="image-20220322121538743"></p> <h4 id="_2-8-2-解析"><a href="#_2-8-2-解析" class="header-anchor">#</a> 2.8.2 解析</h4> <p>就是让域名和我们刚才买的服务器绑定，以后通过域名就可以找到那台服务器，不需要再使用IP了。</p> <p><img src="/pyblog/public/assets/img/image-20220322121751891.5f944c20.png" alt="image-20220322121751891"></p> <p><img src="/pyblog/public/assets/img/image-20220322121906853.7dfb5a36.png" alt="image-20220322121906853"></p> <p><img src="/pyblog/public/assets/img/image-20220322122037913.f2c30451.png" alt="image-20220322122037913"></p> <p>解析成功后，基于域名就可以访问了。</p> <p><img src="/pyblog/public/assets/img/image-20220322124717829.3b61dcac.png" alt="image-20220322124717829"></p> <p>注意：域名需要备案后才能使用。</p> <h3 id="_2-9-https"><a href="#_2-9-https" class="header-anchor">#</a> 2.9 https</h3> <h4 id="_2-9-1-申请证书"><a href="#_2-9-1-申请证书" class="header-anchor">#</a> 2.9.1 申请证书</h4> <p><img src="/pyblog/public/assets/img/image-20220828080416703.37a5a4e0.png" alt="image-20220828080416703"></p> <p><img src="/pyblog/public/assets/img/image-20220828080459263.ee969f65.png" alt="image-20220828080459263"></p> <p><img src="/pyblog/public/assets/img/image-20220828080539607.4166f36f.png" alt="image-20220828080539607"></p> <p><img src="/pyblog/public/assets/img/image-20220828080628142.978ba573.png" alt="image-20220828080628142"></p> <p><img src="/pyblog/public/assets/img/image-20220828080703560.3064b47a.png" alt="image-20220828080703560"></p> <p><img src="/pyblog/public/assets/img/image-20220828080753202.145211aa.png" alt="image-20220828080753202"></p> <h4 id="_2-9-2-下载证书"><a href="#_2-9-2-下载证书" class="header-anchor">#</a> 2.9.2 下载证书</h4> <p><img src="/pyblog/public/assets/img/image-20220828080859783.cd6141e7.png" alt="image-20220828080859783"></p> <p><img src="/pyblog/public/assets/img/image-20220828081027711.8c018a87.png" alt="image-20220828081027711"></p> <h4 id="_2-9-3-证书上传"><a href="#_2-9-3-证书上传" class="header-anchor">#</a> 2.9.3 证书上传</h4> <p>将证书文件上传至服务器，例如：上传至项目目录的ssl文件夹下。</p> <p><img src="/pyblog/public/assets/img/image-20220828081617051.6095b6fd.png" alt="image-20220828081617051"></p> <h4 id="_2-9-4-修改nginx配置"><a href="#_2-9-4-修改nginx配置" class="header-anchor">#</a> 2.9.4 修改nginx配置</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>user nginx;
+worker_processes auto;
+error_log /var/log/nginx/error.log;
+pid /run/nginx.pid;
+
+events {
+    worker_connections  65536;
+    use epoll;
+}
+
+http {
+    log_format  main  '$remote_addr - $remote_user [$time_local] &quot;$request&quot; '
+                      '$status $body_bytes_sent &quot;$http_referer&quot; '
+                      '&quot;$http_user_agent&quot; &quot;$http_x_forwarded_for&quot;';
+
+    access_log  /var/log/nginx/access.log  main;
+
+    sendfile            on;
+    tcp_nopush          on;
+    tcp_nodelay         on;
+    keepalive_timeout   65;
+    gzip on;
+    gzip_http_version 1.1;
+    gzip_buffers  4 32k;
+     gzip_comp_level 9;
+    include             mime.types;
+    default_type        application/octet-stream;
+
+    upstream django {
+        server 127.0.0.1:8001; # for a web port socket (we'll use this first)
+    }
+
+    server {
+        listen      80;
+        server_name day06.pythonav.com;
+        rewrite ^(.*) https://$server_name$1 redirect;
+    }
+
+    server {
+        listen       443 ssl;
+        server_name  day06.pythonav.com;
+
+        #证书文件
+        ssl_certificate      /data/www/ssl/8372403_day06.pythonav.com.pem;
+        #私钥文件
+        ssl_certificate_key  /data/www/ssl/8372403_day06.pythonav.com.key;
+
+        ssl_session_cache    shared:SSL:1m;
+        ssl_session_timeout  5m;
+        ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;
+        ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+        ssl_prefer_server_ciphers  on;
+
+        location / {
+            uwsgi_pass  django;
+            include     uwsgi_params;
+           }
+        location /static {
+            alias  /data/www/allstatic;
+        }
+    }
+
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br></div></div></div></section> <footer class="page-edit"><!----> <!----></footer> <!----> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:12rem;" data-v-b57cc07c data-v-7dd95ae2><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/django/11.html#_1-代码同步" class="sidebar-link reco-side-_1-代码同步" data-v-b57cc07c>1. 代码同步</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/django/11.html#_1-1-本地上传" class="sidebar-link reco-side-_1-1-本地上传" data-v-b57cc07c>1.1 本地上传</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/django/11.html#_2-2-redis" class="sidebar-link reco-side-_2-2-redis" data-v-b57cc07c>2.2 Redis</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/django/11.html#_2-3-python3" class="sidebar-link reco-side-_2-3-python3" data-v-b57cc07c>2.3 Python3</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/django/11.html#_2-4-虚拟环境" class="sidebar-link reco-side-_2-4-虚拟环境" data-v-b57cc07c>2.4 虚拟环境</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/django/11.html#_2-5-拉取代码和配置" class="sidebar-link reco-side-_2-5-拉取代码和配置" data-v-b57cc07c>2.5 拉取代码和配置</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/django/11.html#_2-5-uwsgi" class="sidebar-link reco-side-_2-5-uwsgi" data-v-b57cc07c>2.5 uwsgi</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/django/11.html#_2-6-nginx" class="sidebar-link reco-side-_2-6-nginx" data-v-b57cc07c>2.6 nginx</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/django/11.html#_2-7-shell脚本" class="sidebar-link reco-side-_2-7-shell脚本" data-v-b57cc07c>2.7 shell脚本</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/django/11.html#_2-8-域名和解析" class="sidebar-link reco-side-_2-8-域名和解析" data-v-b57cc07c>2.8 域名和解析</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/django/11.html#_2-9-https" class="sidebar-link reco-side-_2-9-https" data-v-b57cc07c>2.9 https</a></li></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/pyblog/public/assets/js/app.33b33158.js" defer></script><script src="/pyblog/public/assets/js/4.2d1ead4f.js" defer></script><script src="/pyblog/public/assets/js/1.c066e305.js" defer></script><script src="/pyblog/public/assets/js/7.44b005e6.js" defer></script>
+  </body>
+</html>

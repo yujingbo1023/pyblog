@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>01-python串讲① | python全能开发</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/pyblog/public/favicon.ico">
+    <meta name="description" content="快来玩python呀">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/pyblog/public/assets/css/0.styles.622e361c.css" as="style"><link rel="preload" href="/pyblog/public/assets/js/app.33b33158.js" as="script"><link rel="preload" href="/pyblog/public/assets/js/4.2d1ead4f.js" as="script"><link rel="preload" href="/pyblog/public/assets/js/1.c066e305.js" as="script"><link rel="preload" href="/pyblog/public/assets/js/45.f5d1e121.js" as="script"><link rel="prefetch" href="/pyblog/public/assets/js/10.425c9980.js"><link rel="prefetch" href="/pyblog/public/assets/js/11.8f6716cf.js"><link rel="prefetch" href="/pyblog/public/assets/js/12.1bebc008.js"><link rel="prefetch" href="/pyblog/public/assets/js/13.5350acee.js"><link rel="prefetch" href="/pyblog/public/assets/js/14.7865b052.js"><link rel="prefetch" href="/pyblog/public/assets/js/15.ccf92ae2.js"><link rel="prefetch" href="/pyblog/public/assets/js/16.7ea727c2.js"><link rel="prefetch" href="/pyblog/public/assets/js/17.9dd8bd36.js"><link rel="prefetch" href="/pyblog/public/assets/js/18.19a520a7.js"><link rel="prefetch" href="/pyblog/public/assets/js/19.df915b09.js"><link rel="prefetch" href="/pyblog/public/assets/js/20.5ded77f4.js"><link rel="prefetch" href="/pyblog/public/assets/js/21.d1bb8da4.js"><link rel="prefetch" href="/pyblog/public/assets/js/22.350114a1.js"><link rel="prefetch" href="/pyblog/public/assets/js/23.088b4b6f.js"><link rel="prefetch" href="/pyblog/public/assets/js/24.bd28df17.js"><link rel="prefetch" href="/pyblog/public/assets/js/25.1f8d7730.js"><link rel="prefetch" href="/pyblog/public/assets/js/26.b86d2429.js"><link rel="prefetch" href="/pyblog/public/assets/js/27.64685160.js"><link rel="prefetch" href="/pyblog/public/assets/js/28.31f19d5c.js"><link rel="prefetch" href="/pyblog/public/assets/js/29.92ebc30b.js"><link rel="prefetch" href="/pyblog/public/assets/js/3.642efc2d.js"><link rel="prefetch" href="/pyblog/public/assets/js/30.38a4f4d4.js"><link rel="prefetch" href="/pyblog/public/assets/js/31.e08e376c.js"><link rel="prefetch" href="/pyblog/public/assets/js/32.d22af594.js"><link rel="prefetch" href="/pyblog/public/assets/js/33.a54c97f5.js"><link rel="prefetch" href="/pyblog/public/assets/js/34.fa7270e0.js"><link rel="prefetch" href="/pyblog/public/assets/js/35.93596a7d.js"><link rel="prefetch" href="/pyblog/public/assets/js/36.e6171f22.js"><link rel="prefetch" href="/pyblog/public/assets/js/37.e6d9a04c.js"><link rel="prefetch" href="/pyblog/public/assets/js/38.df924943.js"><link rel="prefetch" href="/pyblog/public/assets/js/39.05bcbd58.js"><link rel="prefetch" href="/pyblog/public/assets/js/40.7ee5194e.js"><link rel="prefetch" href="/pyblog/public/assets/js/41.977f119e.js"><link rel="prefetch" href="/pyblog/public/assets/js/42.ba235841.js"><link rel="prefetch" href="/pyblog/public/assets/js/43.3048680d.js"><link rel="prefetch" href="/pyblog/public/assets/js/44.a69e4c80.js"><link rel="prefetch" href="/pyblog/public/assets/js/46.c0453be1.js"><link rel="prefetch" href="/pyblog/public/assets/js/47.13186803.js"><link rel="prefetch" href="/pyblog/public/assets/js/48.58991160.js"><link rel="prefetch" href="/pyblog/public/assets/js/49.1eddeb85.js"><link rel="prefetch" href="/pyblog/public/assets/js/5.9cdacfc9.js"><link rel="prefetch" href="/pyblog/public/assets/js/50.7e2e264f.js"><link rel="prefetch" href="/pyblog/public/assets/js/51.e011a323.js"><link rel="prefetch" href="/pyblog/public/assets/js/6.726a9c0c.js"><link rel="prefetch" href="/pyblog/public/assets/js/7.44b005e6.js"><link rel="prefetch" href="/pyblog/public/assets/js/8.4e5ef80a.js"><link rel="prefetch" href="/pyblog/public/assets/js/9.f6977216.js">
+    <link rel="stylesheet" href="/pyblog/public/assets/css/0.styles.622e361c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>python全能开发</h3> <p class="description" data-v-59e6cb88>快来玩python呀</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>于景波</span>
+          
+        <span data-v-59e6cb88>2017 - </span>
+        2023
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/pyblog/public/" class="home-link router-link-active"><img src="/pyblog/public/logo.png" alt="python全能开发" class="logo"> <span class="site-name">python全能开发</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/pyblog/public/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Python
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/algorithm/" class="nav-link"><i class="undefined"></i>
+  algorithm
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/base/" class="nav-link"><i class="undefined"></i>
+  base
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/crawler/" class="nav-link"><i class="undefined"></i>
+  crawler
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/django/" class="nav-link"><i class="undefined"></i>
+  django
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/flask/" class="nav-link"><i class="undefined"></i>
+  flask
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/interview/" class="nav-link"><i class="undefined"></i>
+  interview
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/mysql/" class="nav-link"><i class="undefined"></i>
+  mysql
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/oop/" class="nav-link"><i class="undefined"></i>
+  oop
+</a></li></ul></div></div><div class="nav-item"><a href="/pyblog/public/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/pyblog/public/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Docs
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pyblog/public/docs/theme-reco/" class="nav-link"><i class="undefined"></i>
+  vuepress-reco
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Contact
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/recoluan" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><img src="/pyblog/public/avatar.png" alt="author-avatar" class="personal-img" data-v-1fad0c41> <h3 class="name" data-v-1fad0c41>
+    于景波
+  </h3> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>41</h3> <h6 data-v-1fad0c41>Articles</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>6</h3> <h6 data-v-1fad0c41>Tags</h6></div></div> <ul class="social-links" data-v-1fad0c41></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/pyblog/public/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Python
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/algorithm/" class="nav-link"><i class="undefined"></i>
+  algorithm
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/base/" class="nav-link"><i class="undefined"></i>
+  base
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/crawler/" class="nav-link"><i class="undefined"></i>
+  crawler
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/django/" class="nav-link"><i class="undefined"></i>
+  django
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/flask/" class="nav-link"><i class="undefined"></i>
+  flask
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/interview/" class="nav-link"><i class="undefined"></i>
+  interview
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/mysql/" class="nav-link"><i class="undefined"></i>
+  mysql
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/oop/" class="nav-link"><i class="undefined"></i>
+  oop
+</a></li></ul></div></div><div class="nav-item"><a href="/pyblog/public/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/pyblog/public/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Docs
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pyblog/public/docs/theme-reco/" class="nav-link"><i class="undefined"></i>
+  vuepress-reco
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Contact
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/recoluan" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>01-python串讲①</h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>于景波</span>
+          
+        <span data-v-59e6cb88>2017 - </span>
+        2023
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">01-python串讲①</h1> <div data-v-8a445198><i class="iconfont reco-account" data-v-8a445198><span data-v-8a445198>于景波</span></i> <i class="iconfont reco-date" data-v-8a445198><span data-v-8a445198>12/15/2028</span></i> <!----> <i class="tags iconfont reco-tag" data-v-8a445198><span class="tag-item" data-v-8a445198>interview</span></i></div></div> <div class="theme-reco-content content__default"><h2 id="_1-简述列举了解的编程语言及语言区别"><a href="#_1-简述列举了解的编程语言及语言区别" class="header-anchor">#</a> 1. 简述列举了解的编程语言及语言区别</h2> <p>编译型语言: 一次性把代码都编译成二进制, 然后运行
+解释型语言: 一行一行, 编译一句, 运行一句
+1.python 解释型 简洁高效, 容易上手
+2.java   混合型(JVM, JIT编译器), 开发周期慢, 突出在web方向
+3.c      编译型 属于计算机底层语言, 只有面向过程, 没有面向对象
+4.c++	 编译型 属于计算机底层语言, 既有面向过程, 也有面向对象
+5.go	 编译型 应用在区块链, 高并发高可用, 也可以突出在游戏领域</p> <h2 id="_2-列举python2和python3的区别"><a href="#_2-列举python2和python3的区别" class="header-anchor">#</a> 2. 列举Python2和Python3的区别</h2> <p><strong>python2.x</strong></p> <div class="language- extra-class"><pre><code>1.print &quot;123&quot;
+2.range 返回列表
+3.默认编码 -- ascii
+4.两种类: 经典类 和 新式类
+	class Car():pass  经典类(多继承当中的搜索原则采用深度优先)
+	class Car(object):pass 新式类(多继承当中的搜索原则采用广度优先)
+5.除法/: 结果是整型
+6.int(4) long(长整型8)
+7.raw_input &lt;=&gt; python3.x input
+</code></pre></div><p><strong>python3.x</strong></p> <div class="language- extra-class"><pre><code>1.print(&quot;12&quot;)
+2.range 返回的是 可迭代对象
+3.默认编码 utf-8
+4.都是新式类(广度优先)  类.mro() =&gt; 继承关系列表
+5.除法/: 结果是小数
+6.int
+7.input
+</code></pre></div><p>​</p> <h2 id="_3-看代码写结果"><a href="#_3-看代码写结果" class="header-anchor">#</a> 3. 看代码写结果</h2> <p>逻辑运算符优先级 () &gt; not &gt; and &gt; or</p> <p>逻辑短路
+True or print(111)	
+False and print(222)</p> <p>and 逻辑与 全真则真 一假则假
+or  逻辑或 全假则假 一真则真</p> <p>布尔值为假的十种情况:
+0 0.0 False 0j '' () [] set() {} None</p> <p>复数: 实数 + 虚数</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code>复数<span class="token punctuation">:</span> <span class="token number">3</span> <span class="token operator">+</span> <span class="token number">4j</span>
+实数<span class="token punctuation">:</span> <span class="token number">3</span>  虚数<span class="token punctuation">:</span> <span class="token number">4j</span>
+如果有一个数<span class="token punctuation">,</span> 他的平方等于<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> 那么这个数就是j
+科学家认为有<span class="token punctuation">,</span> 表达高精度类型<span class="token punctuation">;</span> 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>v1 = 1 or 2
+print(v1)</p> <p>v2 = 3 and 7 or 9 and 0</p> <p>v2 = 7 or 0</p> <p>print(v2)</p> <p>​</p> <p>​</p> <h2 id="_4-比较以下值有什么不同"><a href="#_4-比较以下值有什么不同" class="header-anchor">#</a> 4. 比较以下值有什么不同</h2> <p>&quot;&quot;&quot;逗号是区分是否是元组的标识符&quot;&quot;&quot;
+v1 = [1, 2, 3]
+v2 = [(1), (2), (3)]
+v3 = [(1, ), (2, ), (3, )]</p> <p>v1 列表  v2 列表 v3里面的元素是元组</p> <p>​</p> <h2 id="_5-用一行代码实现数值交换"><a href="#_5-用一行代码实现数值交换" class="header-anchor">#</a> 5. 用一行代码实现数值交换</h2> <p>python特有：</p> <p>a, b = b, a</p> <p>方法二：</p> <p>tmp = a
+a = b
+b = tmp</p> <p>​</p> <h2 id="_6-python中的单引号-双引号-三引号有什么区别"><a href="#_6-python中的单引号-双引号-三引号有什么区别" class="header-anchor">#</a> 6. python中的单引号，双引号，三引号有什么区别</h2> <div class="language- extra-class"><pre><code>单双引号没有任何区别,三引号可以支持跨行
+在引号互相嵌套时,里面不能使用相同的引号
+</code></pre></div><h2 id="_7-is和-的区别"><a href="#_7-is和-的区别" class="header-anchor">#</a> 7. is和==的区别？</h2> <div class="language- extra-class"><pre><code>is 是判断内存地址是否相同
+== 判断两边的值是否相同
+</code></pre></div><p>针对于整型 在-5 ~ 正无穷 [python3.6之前有效]</p> <p>var1 = -100
+var2 = -100
+print(var1 is var2)</p> <h2 id="_8-python里如何实现tuple和list的转化"><a href="#_8-python里如何实现tuple和list的转化" class="header-anchor">#</a> 8. python里如何实现tuple和list的转化</h2> <p>int float complex bool str list tuple set dict</p> <p>tuple(数据)  list(数据)</p> <p>字典的键 和 集合的值 有数据类型上的要求</p> <p>Number ( int float complex bool) str tuple (可哈希 不可变的数据类型)</p> <p>强转成字典, 对数据类型的要求是?</p> <p>&quot;&quot;&quot; 里面容器的元素个数都相同 是等长  &quot;&quot;&quot;
+等长的二级容器, 并且元素个数是2个
+print(  dict([(&quot;a&quot;, 1), [&quot;b&quot;, 2]]) )</p> <p>dict([ (&quot;a&quot;, [1, 2, 3]) , [&quot;b&quot; , 456] ])
+dic = {&quot;a&quot;:1, &quot;b&quot;:2}</p> <h2 id="_9-如何实现字符串name-老男孩-的反转"><a href="#_9-如何实现字符串name-老男孩-的反转" class="header-anchor">#</a> 9. 如何实现字符串name='老男孩'的反转</h2> <p>name[::-1]</p> <h2 id="_10-两个set如何获取交集-并集-差集"><a href="#_10-两个set如何获取交集-并集-差集" class="header-anchor">#</a> 10. 两个set如何获取交集，并集，差集？</h2> <p>交集 &amp;
+集合.intersection(集合2)</p> <p>差集 -
+difference</p> <p>并集 |
+union</p> <p>对称差集 ^
+symmetric_difference</p> <h2 id="_11-哪些情况下-y-x-x-y-会成立"><a href="#_11-哪些情况下-y-x-x-y-会成立" class="header-anchor">#</a> 11. 哪些情况下，y!=x-(x-y)会成立</h2> <p>&quot;&quot;&quot;非空集合且不为子父关系的两个集合&quot;&quot;&quot;</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>x = {1, 2, 5}
+y = {2, 8}
+y != x - (x-y)
+
+
+{2, 8} != {1, 2, 5} - {1, 5}
+{2, 8} != {2}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h2 id="_12-python中如何拷贝一个对象"><a href="#_12-python中如何拷贝一个对象" class="header-anchor">#</a> 12. python中如何拷贝一个对象</h2> <h3 id="_1-浅拷贝"><a href="#_1-浅拷贝" class="header-anchor">#</a> 1，浅拷贝</h3> <p>第1种：</p> <p>import copy</p> <p>第2种：</p> <p>lst = [1, 2, 3].copy()</p> <p>第3种： 切片</p> <p>lst[:] 或者  lst[::]</p> <p>下面的代码并没有实现copy的效果</p> <p>lst = [1, 2, 3]
+lst2 = lst[:]   浅copy
+lst.append(4)
+print(lst, lst2)</p> <h3 id="_2-深拷贝"><a href="#_2-深拷贝" class="header-anchor">#</a> 2，深拷贝</h3> <p>import copy
+copy.deepcopy()
+[1, 2, 34, 5, [3, 4, 5]]</p> <h2 id="_13-简述赋值-浅copy-深copy的关系"><a href="#_13-简述赋值-浅copy-深copy的关系" class="header-anchor">#</a> 13. 简述赋值，浅copy，深copy的关系</h2> <ul><li><p>赋值 : 将变量和值在内存中形成映射指向关系</p></li> <li><p>浅拷贝: 只拷贝第一层级里的所有元素, 单独开辟空间成型独立的一份副本 copy.copy()</p></li> <li><p>深拷贝: 所有层级的元素都单独拷贝一份, 开辟全新的空间</p></li></ul> <p>&quot;&quot;&quot;
+(地址: 原不可变数据只是暂时的指向原数据, 可变的数据独立开辟新空间)
+&quot;&quot;&quot;
+&quot;&quot;&quot;
+import copy
+lst1 = [1, 2, 3, [4, 5, 6]]
+lst2 = copy.deepcopy(lst1)</p> <p>lst2[0] = 100
+print(lst1, lst2)
+print( id(lst1[-1]) , id(lst2[-1]) )
+&quot;&quot;&quot;</p> <p>​</p> <h2 id="_14-pass的作用是什么"><a href="#_14-pass的作用是什么" class="header-anchor">#</a> 14. pass的作用是什么</h2> <p>占位</p> <h2 id="_15-看如何程序的结果"><a href="#_15-看如何程序的结果" class="header-anchor">#</a> 15. 看如何程序的结果</h2> <div class="language-python line-numbers-mode"><pre class="language-python"><code><span class="token keyword">import</span> copy
+a <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'b'</span><span class="token punctuation">,</span> <span class="token string">'c'</span><span class="token punctuation">]</span><span class="token punctuation">]</span>
+b <span class="token operator">=</span> a
+c <span class="token operator">=</span> copy<span class="token punctuation">.</span>copy<span class="token punctuation">(</span>a<span class="token punctuation">)</span>
+d <span class="token operator">=</span> copy<span class="token punctuation">.</span>deepcopy<span class="token punctuation">(</span>a<span class="token punctuation">)</span>
+a<span class="token punctuation">.</span>append<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span>
+a<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">.</span>append<span class="token punctuation">(</span><span class="token string">'d'</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>c<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span>
+
+
+<span class="token comment"># a, b 百分百一样</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span> <span class="token comment">#[1, 2, 4, 5, ['b', 'c', &quot;d&quot;], 5]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>c<span class="token punctuation">)</span> <span class="token comment">#[1, 2, 4, 5, ['b', 'c', &quot;d&quot;]]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#[1, 2, 4, 5, ['b', 'c', &quot;d&quot;], 5]</span>
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><h2 id="_16-打印99乘法表"><a href="#_16-打印99乘法表" class="header-anchor">#</a> 16. 打印99乘法表</h2> <p><strong>while 写法</strong></p> <div class="language-python line-numbers-mode"><pre class="language-python"><code>i <span class="token operator">=</span> <span class="token number">1</span>
+<span class="token keyword">while</span> i<span class="token operator">&lt;=</span><span class="token number">9</span><span class="token punctuation">:</span>
+	<span class="token comment">### 打印表达式</span>
+	j <span class="token operator">=</span> <span class="token number">1</span>
+	<span class="token keyword">while</span> j<span class="token operator">&lt;=</span>i<span class="token punctuation">:</span>
+		<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;%d*%d=%2d &quot;</span> <span class="token operator">%</span> <span class="token punctuation">(</span>i<span class="token punctuation">,</span>j<span class="token punctuation">,</span>i<span class="token operator">*</span>j<span class="token punctuation">)</span> <span class="token punctuation">,</span>end<span class="token operator">=</span><span class="token string">&quot;&quot;</span> <span class="token punctuation">)</span>
+		j<span class="token operator">+=</span><span class="token number">1</span>
+	<span class="token comment">### 打印换行	</span>
+	<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+	i<span class="token operator">+=</span><span class="token number">1</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p><strong>for 写法</strong></p> <div class="language-python line-numbers-mode"><pre class="language-python"><code><span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+	<span class="token comment">### 打印表达式</span>
+	<span class="token keyword">for</span> j <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+		<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;%d*%d=%2d &quot;</span> <span class="token operator">%</span> <span class="token punctuation">(</span>j<span class="token punctuation">,</span>i<span class="token punctuation">,</span>i<span class="token operator">*</span>j<span class="token punctuation">)</span> <span class="token punctuation">,</span>end<span class="token operator">=</span><span class="token string">&quot;&quot;</span> <span class="token punctuation">)</span>
+	<span class="token comment">### 打印换行</span>
+	<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h2 id="_17-用python写一个斐波那契数列"><a href="#_17-用python写一个斐波那契数列" class="header-anchor">#</a> 17. 用python写一个斐波那契数列</h2> <p>1 1 2 3 5 8 13 21 34 ....</p> <p><strong>方法一</strong></p> <div class="language-python line-numbers-mode"><pre class="language-python"><code>lst <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">]</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+	lst<span class="token punctuation">.</span>append<span class="token punctuation">(</span>lst<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">+</span> lst<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>lst<span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p><strong>方法二</strong></p> <div class="language-python line-numbers-mode"><pre class="language-python"><code>a<span class="token punctuation">,</span> b <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+	<span class="token keyword">print</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span>
+	a<span class="token punctuation">,</span>b <span class="token operator">=</span> b<span class="token punctuation">,</span>a<span class="token operator">+</span>b
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p><strong>方法三</strong></p> <div class="language-python line-numbers-mode"><pre class="language-python"><code><span class="token keyword">def</span> <span class="token function">fib</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+	<span class="token keyword">if</span> n <span class="token operator">&lt;=</span> <span class="token number">2</span><span class="token punctuation">:</span>
+		<span class="token keyword">return</span> <span class="token number">1</span>
+	<span class="token comment">### n n-1 n-2</span>
+	<span class="token comment">### 结果 = 上一个值 + 上上个值</span>
+	<span class="token keyword">return</span> fib<span class="token punctuation">(</span>n<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">+</span> fib<span class="token punctuation">(</span>n<span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">)</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span>fib<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token triple-quoted-string string">&quot;&quot;&quot;
+def fib(n):
+	if n &lt;= 2:
+		return 1
+	### 结果 = 上一个值 + 上上个值
+	return fib(n-1) + fib(n-2)
+
+print(fib(5))
+
+1 1 2 3 5
+
+# return 后面的值算完了才能通过return 进行返回
+
+return  3 + 2 =&gt; 5
+return  fib(4) =&gt; 3              +        fib(3)    =&gt; 2
+
+	fib(3) + fib(2) =&gt; 1            fib(2) + fib(1) =&gt; 1 + 1
+
+fib(2) + fib(1) =&gt; 1 + 1 =&gt; 2
+
+调用函数时候, 每调用一次, 都需要在内存当中开辟一个栈帧空间
+递归就是不停的开辟空间和释放空间的过程
+递: 去
+归: 回 
+一去一回是递归
+
+触发递归回的过程有两个条件:
+	(1) 最后一层栈帧空间代码全部执行完毕,触发回的过程,回到上一层空间的调用处;
+	(2) 最后一层栈帧空间代码遇到了return,触发回的过程,回到上一层空间的调用处;
+
+&quot;&quot;&quot;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br></div></div><h2 id="_18"><a href="#_18" class="header-anchor">#</a> 18.</h2> <p>list(set(lst))</p> <h2 id="_19"><a href="#_19" class="header-anchor">#</a> 19.</h2> <p>from collections import Iterator, Iterable
+fp = open(&quot;文件&quot;, mode=&quot;r&quot;, encoding=&quot;utf-8&quot;)</p> <h3 id="方法一-fp-是迭代器"><a href="#方法一-fp-是迭代器" class="header-anchor">#</a> 方法一 fp 是迭代器</h3> <p>for i in fp:</p> <div class="language- extra-class"><pre><code>print(i) ### 按照文本中的行进行遍历.
+</code></pre></div><h3 id="方法二"><a href="#方法二" class="header-anchor">#</a> 方法二</h3> <p>with open(&quot;文件&quot;, mode=&quot;r&quot;, encoding=&quot;utf-8&quot;) as fp:</p> <div class="language- extra-class"><pre><code>res = fp.read(100)
+while res:
+	print(res)
+	res = fp.read(100)
+</code></pre></div><h2 id="_20"><a href="#_20" class="header-anchor">#</a> 20.</h2> <h3 id="zip-拉链-返回迭代器"><a href="#zip-拉链-返回迭代器" class="header-anchor">#</a> zip 拉链  返回迭代器</h3> <p>it = zip( (&quot;a&quot;, &quot;b&quot;) , [1, 2] )
+print(it)</p> <p>dic = dict(zip( (&quot;a&quot;, &quot;b&quot;) , [1, 2] ))
+print(dic)</p> <p>a = dict(zip(  (&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;), (1, 2, 3, 4, 5)  )  )
+print(a)</p> <h3 id="enumerate-枚举-返回迭代器"><a href="#enumerate-枚举-返回迭代器" class="header-anchor">#</a> enumerate 枚举 返回迭代器</h3> <p>it = enumerate( [&quot;a&quot;, &quot;b&quot;] )
+it = enumerate( [&quot;a&quot;, &quot;b&quot;] , start=1) ### start 指定枚举值
+dic = dict(it)
+print(dic)</p> <h2 id="_21"><a href="#_21" class="header-anchor">#</a> 21.</h2> <p>lambda 匿名函数 : 用一句话来表达只有返回值的无名函数
+lambda 参数 : 返回值</p> <h2 id="第二十二题"><a href="#第二十二题" class="header-anchor">#</a> 第二十二题</h2> <h3 id="arg-普通收集参数-收集多余没人要的普通实参"><a href="#arg-普通收集参数-收集多余没人要的普通实参" class="header-anchor">#</a> *arg     普通收集参数 : 收集多余没人要的普通实参</h3> <h3 id="kwargs-关键字收集参数-收集多余没人要的关键字实参"><a href="#kwargs-关键字收集参数-收集多余没人要的关键字实参" class="header-anchor">#</a> **kwargs 关键字收集参数: 收集多余没人要的关键字实参</h3> <h2 id="第二十三题"><a href="#第二十三题" class="header-anchor">#</a> 第二十三题</h2> <p>def func():</p> <div class="language- extra-class"><pre><code>global a
+a = 90
+</code></pre></div><p>func()
+print(a)</p> <h2 id="第二十四题"><a href="#第二十四题" class="header-anchor">#</a> 第二十四题</h2> <p>filter =&gt; 过滤数据
+filter(函数, iterable)</p> <h3 id="保留偶数-过滤掉所有的奇数"><a href="#保留偶数-过滤掉所有的奇数" class="header-anchor">#</a> 保留偶数 , 过滤掉所有的奇数</h3> <p>lst = [1, 2, 3, 4, 5]
+it = filter(lambda x : True if x % 2 == 0 else False , lst)
+print(list(it))</p> <h3 id="map-处理-映射-数据"><a href="#map-处理-映射-数据" class="header-anchor">#</a> map -&gt; 处理(映射)数据</h3> <p>map(func, iterable) =&gt; 迭代器
+lst = [1, 2, 3]
+it = map(lambda x : x * 3, lst)
+print(list(it))</p> <h3 id="reduce-计算数据-一次性计算两个参数"><a href="#reduce-计算数据-一次性计算两个参数" class="header-anchor">#</a> reduce -&gt; 计算数据(一次性计算两个参数)</h3> <p>reduce(func, iterable) =&gt; 计算的结果
+from functools import reduce
+res = reduce(lambda x, y : x*10 + y , lst)
+print(res)
+&quot;&quot;&quot;
+[5, 4, 8, 8] =&gt; 5488</p> <p>5 * 10 + 4 = 54
+54 * 10 + 8 = 548
+548 * 10 + 8 = 5488
+&quot;&quot;&quot;</p> <h2 id="第二十六题"><a href="#第二十六题" class="header-anchor">#</a> 第二十六题</h2> <p>官方说法1000  实际是994 ~ 1000 层
+设置递归最大层数
+import sys
+sys.setrecursionlimit(99999999999999999)</p> <h2 id="第二十七题"><a href="#第二十七题" class="header-anchor">#</a> 第二十七题</h2> <p>迭代器:    迭代数据的工具
+可迭代对象: 可以迭代的数据
+可迭代对象 =&gt; 迭代器
+把不能够直接通过next获取的数据 =&gt; 可以直接被next获取数据</p> <p>dir(数据) =&gt; 查看该数据的内部成员
+具有 <strong>iter</strong>() 和 <strong>next</strong>() 两个方法的是迭代器
+具有 <strong>iter</strong>() 可迭代对象</p> <h2 id="第二十八题"><a href="#第二十八题" class="header-anchor">#</a> 第二十八题</h2> <p>生成器的本质就是迭代器, 可以自定义迭代的逻辑
+创建方式两种</p> <div class="language- extra-class"><pre><code>(1) 生成器表达式(推导式)  (i for i in range(10))
+(2) 生成器函数  (含有yield 关键字)
+</code></pre></div><h3 id="陷阱-tuple-i-for-i-in-range-10-强制转换成元组"><a href="#陷阱-tuple-i-for-i-in-range-10-强制转换成元组" class="header-anchor">#</a> 陷阱 tuple([i for i in range(10)]) =&gt; 强制转换成元组</h3> <h2 id="第二十九题"><a href="#第二十九题" class="header-anchor">#</a> 第二十九题</h2> <h3 id="装饰器-再不改变原有代码的情况下-为原函数扩展新功能"><a href="#装饰器-再不改变原有代码的情况下-为原函数扩展新功能" class="header-anchor">#</a> 装饰器: 再不改变原有代码的情况下, 为原函数扩展新功能</h3> <h3 id="闭包"><a href="#闭包" class="header-anchor">#</a> 闭包:</h3> <div class="language- extra-class"><pre><code>### (1)互相嵌套的两个函数,内函数使用了外函数的局部变量
+### (2)外函数把内函数返回出来的过程,是闭包,内函数是闭包函数;
+</code></pre></div><h3 id="装饰器的本质就是闭包"><a href="#装饰器的本质就是闭包" class="header-anchor">#</a> 装饰器的本质就是闭包</h3> <h3 id="应用-登录认证-框架-django-flask-app-route-method-get-post"><a href="#应用-登录认证-框架-django-flask-app-route-method-get-post" class="header-anchor">#</a> 应用: 登录认证, 框架(django, flask, @app.route(&quot;/&quot;, method=[&quot;GET&quot;, &quot;POST&quot;]))</h3> <h2 id="第三十题"><a href="#第三十题" class="header-anchor">#</a> 第三十题</h2> <h3 id="通过字符串去操作类对象-或者-模块当中的属性方法"><a href="#通过字符串去操作类对象-或者-模块当中的属性方法" class="header-anchor">#</a> 通过字符串去操作类对象 或者 模块当中的属性方法</h3> <h3 id="hasattr-getattr-setattr-delattr"><a href="#hasattr-getattr-setattr-delattr" class="header-anchor">#</a> hasattr  getattr() setattr() delattr()</h3> <h3 id="可以配合用户的输入-进行动态操作-调用其中的成员-通过api接口调用"><a href="#可以配合用户的输入-进行动态操作-调用其中的成员-通过api接口调用" class="header-anchor">#</a> 可以配合用户的输入, 进行动态操作, 调用其中的成员 | 通过api接口调用</h3> <p>def func(x):</p> <div class="language- extra-class"><pre><code>pass
+</code></pre></div><p>func(x)
+0 4 5 7 8 5 2</p> <p>lst = [7, -8, 5, 4, 0, -2 , -5]
+def func(x):</p> <div class="language- extra-class"><pre><code>if x &gt;= 0:
+	return x
+else:
+	return abs(x)+x
+</code></pre></div><p>res = sorted(lst, key=func)
+print(res)</p></div></section> <footer class="page-edit"><!----> <!----></footer> <!----> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:12rem;" data-v-b57cc07c data-v-7dd95ae2><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_1-简述列举了解的编程语言及语言区别" class="sidebar-link reco-side-_1-简述列举了解的编程语言及语言区别" data-v-b57cc07c>1. 简述列举了解的编程语言及语言区别</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_2-列举python2和python3的区别" class="sidebar-link reco-side-_2-列举python2和python3的区别" data-v-b57cc07c>2. 列举Python2和Python3的区别</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_3-看代码写结果" class="sidebar-link reco-side-_3-看代码写结果" data-v-b57cc07c>3. 看代码写结果</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_4-比较以下值有什么不同" class="sidebar-link reco-side-_4-比较以下值有什么不同" data-v-b57cc07c>4. 比较以下值有什么不同</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_5-用一行代码实现数值交换" class="sidebar-link reco-side-_5-用一行代码实现数值交换" data-v-b57cc07c>5. 用一行代码实现数值交换</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_6-python中的单引号-双引号-三引号有什么区别" class="sidebar-link reco-side-_6-python中的单引号-双引号-三引号有什么区别" data-v-b57cc07c>6. python中的单引号，双引号，三引号有什么区别</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_7-is和-的区别" class="sidebar-link reco-side-_7-is和-的区别" data-v-b57cc07c>7. is和==的区别？</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_8-python里如何实现tuple和list的转化" class="sidebar-link reco-side-_8-python里如何实现tuple和list的转化" data-v-b57cc07c>8. python里如何实现tuple和list的转化</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_9-如何实现字符串name-老男孩-的反转" class="sidebar-link reco-side-_9-如何实现字符串name-老男孩-的反转" data-v-b57cc07c>9. 如何实现字符串name='老男孩'的反转</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_10-两个set如何获取交集-并集-差集" class="sidebar-link reco-side-_10-两个set如何获取交集-并集-差集" data-v-b57cc07c>10. 两个set如何获取交集，并集，差集？</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_11-哪些情况下-y-x-x-y-会成立" class="sidebar-link reco-side-_11-哪些情况下-y-x-x-y-会成立" data-v-b57cc07c>11. 哪些情况下，y!=x-(x-y)会成立</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_12-python中如何拷贝一个对象" class="sidebar-link reco-side-_12-python中如何拷贝一个对象" data-v-b57cc07c>12. python中如何拷贝一个对象</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_1-浅拷贝" class="sidebar-link reco-side-_1-浅拷贝" data-v-b57cc07c>1，浅拷贝</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_2-深拷贝" class="sidebar-link reco-side-_2-深拷贝" data-v-b57cc07c>2，深拷贝</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_13-简述赋值-浅copy-深copy的关系" class="sidebar-link reco-side-_13-简述赋值-浅copy-深copy的关系" data-v-b57cc07c>13. 简述赋值，浅copy，深copy的关系</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_14-pass的作用是什么" class="sidebar-link reco-side-_14-pass的作用是什么" data-v-b57cc07c>14. pass的作用是什么</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_15-看如何程序的结果" class="sidebar-link reco-side-_15-看如何程序的结果" data-v-b57cc07c>15. 看如何程序的结果</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_16-打印99乘法表" class="sidebar-link reco-side-_16-打印99乘法表" data-v-b57cc07c>16. 打印99乘法表</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_17-用python写一个斐波那契数列" class="sidebar-link reco-side-_17-用python写一个斐波那契数列" data-v-b57cc07c>17. 用python写一个斐波那契数列</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_18" class="sidebar-link reco-side-_18" data-v-b57cc07c>18.</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_19" class="sidebar-link reco-side-_19" data-v-b57cc07c>19.</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#方法一-fp-是迭代器" class="sidebar-link reco-side-方法一-fp-是迭代器" data-v-b57cc07c>方法一 fp 是迭代器</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#方法二" class="sidebar-link reco-side-方法二" data-v-b57cc07c>方法二</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_20" class="sidebar-link reco-side-_20" data-v-b57cc07c>20.</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#zip-拉链-返回迭代器" class="sidebar-link reco-side-zip-拉链-返回迭代器" data-v-b57cc07c>zip 拉链  返回迭代器</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#enumerate-枚举-返回迭代器" class="sidebar-link reco-side-enumerate-枚举-返回迭代器" data-v-b57cc07c>enumerate 枚举 返回迭代器</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#_21" class="sidebar-link reco-side-_21" data-v-b57cc07c>21.</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#第二十二题" class="sidebar-link reco-side-第二十二题" data-v-b57cc07c>第二十二题</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#arg-普通收集参数-收集多余没人要的普通实参" class="sidebar-link reco-side-arg-普通收集参数-收集多余没人要的普通实参" data-v-b57cc07c>*arg     普通收集参数 : 收集多余没人要的普通实参</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#kwargs-关键字收集参数-收集多余没人要的关键字实参" class="sidebar-link reco-side-kwargs-关键字收集参数-收集多余没人要的关键字实参" data-v-b57cc07c>**kwargs 关键字收集参数: 收集多余没人要的关键字实参</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#第二十三题" class="sidebar-link reco-side-第二十三题" data-v-b57cc07c>第二十三题</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#第二十四题" class="sidebar-link reco-side-第二十四题" data-v-b57cc07c>第二十四题</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#保留偶数-过滤掉所有的奇数" class="sidebar-link reco-side-保留偶数-过滤掉所有的奇数" data-v-b57cc07c>保留偶数 , 过滤掉所有的奇数</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#map-处理-映射-数据" class="sidebar-link reco-side-map-处理-映射-数据" data-v-b57cc07c>map -&gt; 处理(映射)数据</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#reduce-计算数据-一次性计算两个参数" class="sidebar-link reco-side-reduce-计算数据-一次性计算两个参数" data-v-b57cc07c>reduce -&gt; 计算数据(一次性计算两个参数)</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#第二十六题" class="sidebar-link reco-side-第二十六题" data-v-b57cc07c>第二十六题</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#第二十七题" class="sidebar-link reco-side-第二十七题" data-v-b57cc07c>第二十七题</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#第二十八题" class="sidebar-link reco-side-第二十八题" data-v-b57cc07c>第二十八题</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#陷阱-tuple-i-for-i-in-range-10-强制转换成元组" class="sidebar-link reco-side-陷阱-tuple-i-for-i-in-range-10-强制转换成元组" data-v-b57cc07c>陷阱 tuple([i for i in range(10)]) =&gt; 强制转换成元组</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#第二十九题" class="sidebar-link reco-side-第二十九题" data-v-b57cc07c>第二十九题</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#装饰器-再不改变原有代码的情况下-为原函数扩展新功能" class="sidebar-link reco-side-装饰器-再不改变原有代码的情况下-为原函数扩展新功能" data-v-b57cc07c>装饰器: 再不改变原有代码的情况下, 为原函数扩展新功能</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#闭包" class="sidebar-link reco-side-闭包" data-v-b57cc07c>闭包:</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#装饰器的本质就是闭包" class="sidebar-link reco-side-装饰器的本质就是闭包" data-v-b57cc07c>装饰器的本质就是闭包</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#应用-登录认证-框架-django-flask-app-route-method-get-post" class="sidebar-link reco-side-应用-登录认证-框架-django-flask-app-route-method-get-post" data-v-b57cc07c>应用: 登录认证, 框架(django, flask, @app.route(&quot;/&quot;, method=[&quot;GET&quot;, &quot;POST&quot;]))</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#第三十题" class="sidebar-link reco-side-第三十题" data-v-b57cc07c>第三十题</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#通过字符串去操作类对象-或者-模块当中的属性方法" class="sidebar-link reco-side-通过字符串去操作类对象-或者-模块当中的属性方法" data-v-b57cc07c>通过字符串去操作类对象 或者 模块当中的属性方法</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#hasattr-getattr-setattr-delattr" class="sidebar-link reco-side-hasattr-getattr-setattr-delattr" data-v-b57cc07c>hasattr  getattr() setattr() delattr()</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/interview/01.html#可以配合用户的输入-进行动态操作-调用其中的成员-通过api接口调用" class="sidebar-link reco-side-可以配合用户的输入-进行动态操作-调用其中的成员-通过api接口调用" data-v-b57cc07c>可以配合用户的输入, 进行动态操作, 调用其中的成员 | 通过api接口调用</a></li></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/pyblog/public/assets/js/app.33b33158.js" defer></script><script src="/pyblog/public/assets/js/4.2d1ead4f.js" defer></script><script src="/pyblog/public/assets/js/1.c066e305.js" defer></script><script src="/pyblog/public/assets/js/45.f5d1e121.js" defer></script>
+  </body>
+</html>

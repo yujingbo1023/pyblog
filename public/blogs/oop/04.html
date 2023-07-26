@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>04-网络编程上 | python全能开发</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/pyblog/public/favicon.ico">
+    <meta name="description" content="快来玩python呀">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/pyblog/public/assets/css/0.styles.622e361c.css" as="style"><link rel="preload" href="/pyblog/public/assets/js/app.33b33158.js" as="script"><link rel="preload" href="/pyblog/public/assets/js/4.2d1ead4f.js" as="script"><link rel="preload" href="/pyblog/public/assets/js/1.c066e305.js" as="script"><link rel="preload" href="/pyblog/public/assets/js/6.726a9c0c.js" as="script"><link rel="prefetch" href="/pyblog/public/assets/js/10.425c9980.js"><link rel="prefetch" href="/pyblog/public/assets/js/11.8f6716cf.js"><link rel="prefetch" href="/pyblog/public/assets/js/12.1bebc008.js"><link rel="prefetch" href="/pyblog/public/assets/js/13.5350acee.js"><link rel="prefetch" href="/pyblog/public/assets/js/14.7865b052.js"><link rel="prefetch" href="/pyblog/public/assets/js/15.ccf92ae2.js"><link rel="prefetch" href="/pyblog/public/assets/js/16.7ea727c2.js"><link rel="prefetch" href="/pyblog/public/assets/js/17.9dd8bd36.js"><link rel="prefetch" href="/pyblog/public/assets/js/18.19a520a7.js"><link rel="prefetch" href="/pyblog/public/assets/js/19.df915b09.js"><link rel="prefetch" href="/pyblog/public/assets/js/20.5ded77f4.js"><link rel="prefetch" href="/pyblog/public/assets/js/21.d1bb8da4.js"><link rel="prefetch" href="/pyblog/public/assets/js/22.350114a1.js"><link rel="prefetch" href="/pyblog/public/assets/js/23.088b4b6f.js"><link rel="prefetch" href="/pyblog/public/assets/js/24.bd28df17.js"><link rel="prefetch" href="/pyblog/public/assets/js/25.1f8d7730.js"><link rel="prefetch" href="/pyblog/public/assets/js/26.b86d2429.js"><link rel="prefetch" href="/pyblog/public/assets/js/27.64685160.js"><link rel="prefetch" href="/pyblog/public/assets/js/28.31f19d5c.js"><link rel="prefetch" href="/pyblog/public/assets/js/29.92ebc30b.js"><link rel="prefetch" href="/pyblog/public/assets/js/3.642efc2d.js"><link rel="prefetch" href="/pyblog/public/assets/js/30.38a4f4d4.js"><link rel="prefetch" href="/pyblog/public/assets/js/31.e08e376c.js"><link rel="prefetch" href="/pyblog/public/assets/js/32.d22af594.js"><link rel="prefetch" href="/pyblog/public/assets/js/33.a54c97f5.js"><link rel="prefetch" href="/pyblog/public/assets/js/34.fa7270e0.js"><link rel="prefetch" href="/pyblog/public/assets/js/35.93596a7d.js"><link rel="prefetch" href="/pyblog/public/assets/js/36.e6171f22.js"><link rel="prefetch" href="/pyblog/public/assets/js/37.e6d9a04c.js"><link rel="prefetch" href="/pyblog/public/assets/js/38.df924943.js"><link rel="prefetch" href="/pyblog/public/assets/js/39.05bcbd58.js"><link rel="prefetch" href="/pyblog/public/assets/js/40.7ee5194e.js"><link rel="prefetch" href="/pyblog/public/assets/js/41.977f119e.js"><link rel="prefetch" href="/pyblog/public/assets/js/42.ba235841.js"><link rel="prefetch" href="/pyblog/public/assets/js/43.3048680d.js"><link rel="prefetch" href="/pyblog/public/assets/js/44.a69e4c80.js"><link rel="prefetch" href="/pyblog/public/assets/js/45.f5d1e121.js"><link rel="prefetch" href="/pyblog/public/assets/js/46.c0453be1.js"><link rel="prefetch" href="/pyblog/public/assets/js/47.13186803.js"><link rel="prefetch" href="/pyblog/public/assets/js/48.58991160.js"><link rel="prefetch" href="/pyblog/public/assets/js/49.1eddeb85.js"><link rel="prefetch" href="/pyblog/public/assets/js/5.9cdacfc9.js"><link rel="prefetch" href="/pyblog/public/assets/js/50.7e2e264f.js"><link rel="prefetch" href="/pyblog/public/assets/js/51.e011a323.js"><link rel="prefetch" href="/pyblog/public/assets/js/7.44b005e6.js"><link rel="prefetch" href="/pyblog/public/assets/js/8.4e5ef80a.js"><link rel="prefetch" href="/pyblog/public/assets/js/9.f6977216.js">
+    <link rel="stylesheet" href="/pyblog/public/assets/css/0.styles.622e361c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>python全能开发</h3> <p class="description" data-v-59e6cb88>快来玩python呀</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>于景波</span>
+          
+        <span data-v-59e6cb88>2017 - </span>
+        2023
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/pyblog/public/" class="home-link router-link-active"><img src="/pyblog/public/logo.png" alt="python全能开发" class="logo"> <span class="site-name">python全能开发</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/pyblog/public/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Python
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/algorithm/" class="nav-link"><i class="undefined"></i>
+  algorithm
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/base/" class="nav-link"><i class="undefined"></i>
+  base
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/crawler/" class="nav-link"><i class="undefined"></i>
+  crawler
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/django/" class="nav-link"><i class="undefined"></i>
+  django
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/flask/" class="nav-link"><i class="undefined"></i>
+  flask
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/interview/" class="nav-link"><i class="undefined"></i>
+  interview
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/mysql/" class="nav-link"><i class="undefined"></i>
+  mysql
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/oop/" class="nav-link"><i class="undefined"></i>
+  oop
+</a></li></ul></div></div><div class="nav-item"><a href="/pyblog/public/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/pyblog/public/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Docs
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pyblog/public/docs/theme-reco/" class="nav-link"><i class="undefined"></i>
+  vuepress-reco
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Contact
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/recoluan" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><img src="/pyblog/public/avatar.png" alt="author-avatar" class="personal-img" data-v-1fad0c41> <h3 class="name" data-v-1fad0c41>
+    于景波
+  </h3> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>41</h3> <h6 data-v-1fad0c41>Articles</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>6</h3> <h6 data-v-1fad0c41>Tags</h6></div></div> <ul class="social-links" data-v-1fad0c41></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/pyblog/public/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Python
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/algorithm/" class="nav-link"><i class="undefined"></i>
+  algorithm
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/base/" class="nav-link"><i class="undefined"></i>
+  base
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/crawler/" class="nav-link"><i class="undefined"></i>
+  crawler
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/django/" class="nav-link"><i class="undefined"></i>
+  django
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/flask/" class="nav-link"><i class="undefined"></i>
+  flask
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/interview/" class="nav-link"><i class="undefined"></i>
+  interview
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/mysql/" class="nav-link"><i class="undefined"></i>
+  mysql
+</a></li><li class="dropdown-item"><!----> <a href="/pyblog/public/categories/oop/" class="nav-link"><i class="undefined"></i>
+  oop
+</a></li></ul></div></div><div class="nav-item"><a href="/pyblog/public/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/pyblog/public/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Docs
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pyblog/public/docs/theme-reco/" class="nav-link"><i class="undefined"></i>
+  vuepress-reco
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Contact
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/recoluan" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>04-网络编程上</h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>于景波</span>
+          
+        <span data-v-59e6cb88>2017 - </span>
+        2023
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">04-网络编程上</h1> <div data-v-8a445198><i class="iconfont reco-account" data-v-8a445198><span data-v-8a445198>于景波</span></i> <i class="iconfont reco-date" data-v-8a445198><span data-v-8a445198>12/15/2018</span></i> <!----> <i class="tags iconfont reco-tag" data-v-8a445198><span class="tag-item" data-v-8a445198>oop</span></i></div></div> <div class="theme-reco-content content__default"><h1 id="day20-网络编程"><a href="#day20-网络编程" class="header-anchor">#</a> day20 网络编程</h1> <p><img src="/pyblog/public/assets/img/image-20210220091551058.57bbf777.png" alt="image-20210220091551058"></p> <p>课程目标：掌握网络相关的基础知识并可以基于Python开发程序（基于网络进行数据传输）。</p> <p>课程概要：</p> <ul><li>网络必备基础</li> <li>网络编程（Python代码）</li> <li>B/S和C/S架构</li></ul> <h2 id="_1-必备基础"><a href="#_1-必备基础" class="header-anchor">#</a> 1.必备基础</h2> <p>你必须了解的网络相关设备和基础概念。</p> <h3 id="_1-1-网络架构"><a href="#_1-1-网络架构" class="header-anchor">#</a> 1.1 网络架构</h3> <p>假设 <strong>root</strong> 上了一个野鸡大学买了一台电脑，电脑里存了1部小电影，整宿整宿的在宿舍反复的看。</p> <p><img src="/pyblog/public/assets/img/image-20210204184431053-3881170.35dc64e6.png" alt="image-20210204184431053"></p> <p><strong>root</strong> 如何想要和室友 <strong>于超</strong> 进行收发数据，可以通过一根网线来进行连接，并进行数据的传输。</p> <p><img src="/pyblog/public/assets/img/image-20210204185417337-3881170.9e13ef49.png" alt="image-20210204185417337"></p> <h4 id="_1-1-1-交换机"><a href="#_1-1-1-交换机" class="header-anchor">#</a> 1.1.1 交换机</h4> <p>其他2位室友如何也想和他们的电脑相互连接然后进行资源的共享，此时就需要一个设备 【二层交换机】组件一个局域网。</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code>当电脑接入交换机之后，我们需要为每台电脑分配一个IP，例如：
+    <span class="token operator">-</span> 电脑<span class="token number">1</span>：<span class="token number">192.168</span><span class="token number">.10</span><span class="token number">.1</span>
+    <span class="token operator">-</span> 电脑<span class="token number">2</span>：<span class="token number">192.168</span><span class="token number">.10</span><span class="token number">.2</span>
+    <span class="token operator">-</span> 电脑<span class="token number">3</span>：<span class="token number">192.168</span><span class="token number">.10</span><span class="token number">.3</span>
+    <span class="token operator">-</span> 电脑<span class="token number">4</span>：<span class="token number">192.168</span><span class="token number">.10</span><span class="token number">.4</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code>局域网内容个电脑之间是基于ARP协议来进行通信，例如：A电脑向 IP为192.168.10.3的另一个电脑发送消息。
+
+第一步：A封装数据包，此时只知道目标IP不知道目标mac地址（未知mac地址时默认会设置为FF）。
+第二步：将数据包发送到交换机，交换机通过广播的形式将数据发送给所有电脑。
+第三步：目标电脑接收到数据包后，监测自己是否是目标IP。
+		- 是，收到数据并回复。
+		- 不是，则丢弃包。
+
+为防止每次发送消息都是广播形式，每台电脑的内部都为维护了一个ARP表，接受到数据时（无论是否自己的）都会记录自己了解的IP和MAC的对应关系，例如：
+    Internet地址			       物理地址
+    192.168.10.1            14-9d-da-2a-dd-0a
+    192.168.10.3            14-9d-da-2a-dd-0c
+    ...
+    
+以便于下次在发送消息时，就知道了目标的mac地址，直接让交换机转发给指定的电脑（单播）。
+
+同时，当有消息发送经过二层交换机时他的内容也会维护记录了交换机接口和连接的电脑的mac地址的对应关系，例如：
+    接口（网卡）               mac地址
+      接口1              14-9d-da-2a-dd-0A
+      接口2              14-9d-da-2a-dd-0B
+      接口3              14-9d-da-2a-dd-0C
+      ...
+这样一来，交换机在进行数据转发时，效率就更高了。
+
+注意：每台电脑出厂时在网卡中都设置了唯一的mac地址（不重复），网卡集成在主板上，如果更换了主板则mac地址也会变更。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><img src="assets/image-20210221142111266.png" alt="image-20210221142111266" style="zoom:33%;"> <p><img src="/pyblog/public/assets/img/image-20210205143317465-3881170.20bf7f91.png" alt="image-20210205143317465"></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>头部信息：xxx
+数据：你好
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code>头部信息：xxx
+数据：收到
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="_1-1-2-路由器"><a href="#_1-1-2-路由器" class="header-anchor">#</a> 1.1.2 路由器</h4> <p>多个宿舍之间想想要组建一个相互可以通信网络，此时需要【二层交换机】和【企业路由器】配合组建稍微大一点的局域网（同时也可缓解广播风暴）。</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>划分好网络结构之后，其实会给各宿舍的电脑分配IP和网关，例如：
+   宿舍A：
+		- 电脑1：192.168.10.1  网关：192.168.10.254
+		- 电脑2：192.168.10.2  网关：192.168.10.254
+		- 电脑3：192.168.10.3  网关：192.168.10.254
+		- 电脑4：192.168.10.4  网关：192.168.10.254
+   宿舍B
+		- 电脑1：192.168.20.1  网关：192.168.20.254
+		- 电脑2：192.168.20.2  网关：192.168.20.254
+		- 电脑3：192.168.20.3  网关：192.168.20.254
+		- 电脑4：192.168.20.4  网关：192.168.20.254
+
+然后再在路由器中配置路由表（包含网段和路由器上的接口的对应关系），例如：
+	 接口             IP
+     eth0   	  192.168.10.254（192.168.10网段）
+     eth1   	  192.168.20.254（192.168.20网段）
+    
+想与外部网络通信，需要配置网关，网关就是路由表中配置的指向此网段的IP。其实就类似于贸易出口都需要经过海关。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><div class="language-python line-numbers-mode"><pre class="language-python"><code>数据通信的过程结合了APR协议和IP协议，例如：宿舍A的电脑<span class="token number">1</span>向宿舍B的电脑<span class="token number">3</span>发送消息（目标IP：<span class="token number">192.168</span><span class="token number">.20</span><span class="token number">.3</span>）。
+
+简化过程：
+	<span class="token operator">-</span> 宿舍A的电脑<span class="token number">1</span>，通过广播或单播将数据发送到网管（路由器）
+    <span class="token operator">-</span> 路由器接收到数据之后，再通过对应的接口把数据通过广播的形式发送到宿舍B。
+注意：各自局域网内通过学习并记录相关mac地址后，就可以不再使用广播形式，而是使用单播来发送消息了。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p><img src="/pyblog/public/assets/img/image-20210204205902286-3890545.6d2771be.png" alt="image-20210204205902286"></p> <img src="assets/image-20210221145506980.png" alt="image-20210221145506980" style="zoom:33%;"> <h4 id="_1-1-3-三层交换机"><a href="#_1-1-3-三层交换机" class="header-anchor">#</a> 1.1.3 三层交换机</h4> <p>三层交换机集成了 交换机 &amp; 路由器的功能（大部分路由器功能），上述的三个设备其实可以用一个三层交换机就可以搞定。</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code>按照下图，在三层交换机上分别做如下几件事：
+
+<span class="token number">1.</span> 划分两个vlan，模拟出来路由器的两个接口。
+<span class="token number">2.</span> 将交换机的接口划分给指定的vlan，例如：
+	接口<span class="token number">1</span>、<span class="token number">2</span>、<span class="token number">3</span>划分给一个vlan，相当于交换机连接上了路由器。
+    接口<span class="token number">4</span>、<span class="token number">5</span>、<span class="token number">6</span>划分给一个vlan，相当于交换机连接上了路由器。
+<span class="token number">3.</span> 电脑连接上交换机。
+<span class="token number">4.</span> 进行相应的配置。
+	宿舍A（左边）电脑配置：
+    	<span class="token operator">-</span> 电脑<span class="token number">1</span>：<span class="token number">192.168</span><span class="token number">.10</span><span class="token number">.1</span>  网关：<span class="token number">192.168</span><span class="token number">.10</span><span class="token number">.254</span>	对应交换机接口：<span class="token number">1</span>
+		<span class="token operator">-</span> 电脑<span class="token number">2</span>：<span class="token number">192.168</span><span class="token number">.10</span><span class="token number">.2</span>  网关：<span class="token number">192.168</span><span class="token number">.10</span><span class="token number">.254</span>	对应交换机接口：<span class="token number">2</span>
+		<span class="token operator">-</span> 电脑<span class="token number">3</span>：<span class="token number">192.168</span><span class="token number">.10</span><span class="token number">.3</span>  网关：<span class="token number">192.168</span><span class="token number">.10</span><span class="token number">.254</span>	对应交换机接口：<span class="token number">3</span>
+	宿舍B（右边）电脑配置：
+		<span class="token operator">-</span> 电脑<span class="token number">1</span>：<span class="token number">192.168</span><span class="token number">.20</span><span class="token number">.1</span>  网关：<span class="token number">192.168</span><span class="token number">.20</span><span class="token number">.254</span>	对应交换机接口：<span class="token number">4</span>
+		<span class="token operator">-</span> 电脑<span class="token number">2</span>：<span class="token number">192.168</span><span class="token number">.20</span><span class="token number">.2</span>  网关：<span class="token number">192.168</span><span class="token number">.20</span><span class="token number">.254</span>	对应交换机接口：<span class="token number">5</span>
+		<span class="token operator">-</span> 电脑<span class="token number">3</span>：<span class="token number">192.168</span><span class="token number">.20</span><span class="token number">.3</span>  网关：<span class="token number">192.168</span><span class="token number">.20</span><span class="token number">.254</span>	对应交换机接口：<span class="token number">6</span>
+	
+    交换机中的路由配置：
+    	  接口               IP
+         左vlan   	  <span class="token number">192.168</span><span class="token number">.10</span><span class="token number">.254</span>（<span class="token number">192.168</span><span class="token number">.10</span>网段）
+         右vlan   	  <span class="token number">192.168</span><span class="token number">.20</span><span class="token number">.254</span>（<span class="token number">192.168</span><span class="token number">.20</span>网段）
+        
+通过上述的配置之后，就可以实现宿舍A和宿舍B的网络通信了。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br></div></div><p><img src="/pyblog/public/assets/img/image-20210206092454106-3881170.2234d1de.png" alt="image-20210206092454106"></p> <h4 id="_1-1-4-小型企业基础网络架构"><a href="#_1-1-4-小型企业基础网络架构" class="header-anchor">#</a> 1.1.4 小型企业基础网络架构</h4> <p><img src="/pyblog/public/assets/img/image-20210206225844012.87e2b04c.png" alt="image-20210206225844012"></p> <h4 id="_1-1-5-家庭网络架构"><a href="#_1-1-5-家庭网络架构" class="header-anchor">#</a> 1.1.5 家庭网络架构</h4> <p>家用路由器集成了是交换机和路由的功能（性能差、价格便宜）。</p> <p><img src="/pyblog/public/assets/img/image-20210206231121896.02ba3291.png" alt="image-20210206231121896"></p> <h4 id="_1-1-6-互联网"><a href="#_1-1-6-互联网" class="header-anchor">#</a> 1.1.6 互联网</h4> <p><img src="/pyblog/public/assets/img/image-20210206231602247.9c012f6e.png" alt="image-20210206231602247"></p> <h3 id="_1-2-网络核心词汇"><a href="#_1-2-网络核心词汇" class="header-anchor">#</a> 1.2 网络核心词汇</h3> <h4 id="_1-2-1-子网掩码和ip"><a href="#_1-2-1-子网掩码和ip" class="header-anchor">#</a> 1.2.1 子网掩码和IP</h4> <p>之前说过，接入网络设备后，需要一个IP来代指次电脑，例如：192.168.10.1 。</p> <p>IP其是一个32位的二进制，为了便于记忆就将它分为4组，每组8位，由小数点分开，例如：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>二进制表示：00000000.10010111.11111111.00001111
+十进制表示：251.151.255.15
+
+0~255
+192.178.11.211
+192.178.11.311
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>在网络中的每台电脑都会有一个IP与之绑定，这样通过IP就可以找到相应的电脑。</p> <p>一个IP地址可以划分为两个部分，即：网络地址 + 主机地址。</p> <ul><li><p>问题1：如何确定网络地址和主机地址呢？</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>通过子网掩码就可以确定IP的网络地址和主机地址。
+
+示例1：
+    	IP：192.168.1.199      11000000.10101000.00000001.11000111
+	子网掩码：255.255.255.0     11111111.11111111.11111111.00000000
+此时，网络地址就是前24位 + 主机地址是后8位。你可能见过有些IP这样写 192.168.1.199/24，意思也是前24位是网络地址。
+
+
+示例2：
+    	IP：192.168.99.254     11000000.10101000.01100011.11111110
+	子网掩码：255.255.240.0     11111111.11111111.11111100.00000000
+此时，网络地址就是前22位 + 主机地址是后10位。你可能见过有些IP这样写 192.168.99.254/22，意思也是前22位是网络地址。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div></li> <li><p>问题2：划分 网络地址 + 主机地址 的意义是什么？</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>网络地址相同的IP，也称为属于同一个网段。
+在局域网内只有同一个网段的IP才能相互通信，不同网段IP想要通信需要借助路由的转发才能通信。
+
+当了解子网掩码之后，其实就可以确定某个网段可以容纳的主机个数，例如：
+【IP: 192.168.10.2  掩码：255.255.255.0】 和 【192.168.10.251 掩码：255.255.255.0】 数据同一个网段。
+
+	示例网段的主机范围：11000000.10101000.00001010. 00000001  ~  11000000.10101000.00001010.  11111110
+	                 --------------------------              --------------------------
+	                          网络地址                                   网络地址
+				           192.168.10.1                 ~           192.168.10.254
+                           
+【IP: 192.168.8.1  掩码：255.255.240.0】 和 【192.168.11.254 掩码：255.255.240.0】 数据同一个网段。
+	子网掩码：255.255.240.0
+	示例网段的主机范围：11000000.10101000.000010 00.00000001  ~  11000000.10101000.000010 11.11111110
+	                 11111111.11111111.111111 00.00000000
+	                 ------------------------                 ------------------------
+	                          网络地址                                   网络地址
+				           192.168.8.1                 ~           192.168.11.254
+				           
+【IP: 192.168.96.1  掩码：255.255.240.0】 和 【192.168.99.254  掩码：255.255.240.0】 数据同一个网段。
+	示例网段的主机范围：11000000.10101000.011000 00.00000001  ~  11000000.10101000.011000 11.11111110
+	         
+	                 ------------------------                 ------------------------
+	                          网络地址                                   网络地址
+				           192.168.96.1                 ~           192.168.99.254    
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><p><img src="/pyblog/public/assets/img/image-20210207001644433.8ad68485.png" alt="image-20210207001644433"> <img src="/pyblog/public/assets/img/image-20210207135331788.48ebd8cc.png" alt="image-20210207135331788"></p></li></ul> <h4 id="_1-2-2-dhcp"><a href="#_1-2-2-dhcp" class="header-anchor">#</a> 1.2.2 DHCP</h4> <p>在一个局域网内想要给某台电脑分配IP有两种方式：</p> <ul><li><p>手动设置，打开指定菜单栏在里面输入相应的IP信息。</p></li> <li><p>自动获取</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code><span class="token operator">-</span> 在电脑端，IP地址获取方式设置为自动。
+<span class="token operator">-</span> 在路由器或三层交换机，开启DHCP服务，并设置IP地址池。（家用路由器上也是基于DHCP服务自动分配的IP）
+
+这样，电脑只要连接只该网络，DHCP服务就会为它自动分配IP、子网掩码、网关。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div></li></ul> <p><img src="/pyblog/public/assets/img/image-20210207143152690.3b4ff490.png" alt="image-20210207143152690"></p> <img src="assets/image-20210207143340596.png" alt="image-20210207143340596" style="zoom:33%;"> <h4 id="_1-2-3-内网和公网ip"><a href="#_1-2-3-内网和公网ip" class="header-anchor">#</a> 1.2.3 内网和公网IP</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>一般情况下，内网IP都用这些（潜规则）：
+	- 10.0.0.0 到 10.255.255.255
+	- 172.16.0.0 到172.31.255.255
+	- 192.168.0.0 到192.168.255.255
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>之前我们自己在一个局域网内为电脑分配的IP都称为<code>内网IP</code>，基于内网IP可以在一个局域网内进行相互通信（也需要相关的配置）。</p> <p><img src="/pyblog/public/assets/img/image-20210207211646642.fc354426.png" alt="image-20210207211646642"></p> <p>如果想要通过互联网进行通信，就必须借助公网IP。例如，右边家庭电脑想访问左边某公司服务器上的部署的网站：</p> <ul><li>第一步：左边公司，去运营商申请公网的固定IP（办理专线宽带时运营商会分配至少1个固定的IP地址），其实运营商就是将你拉的这个专线和固定IP创建绑定关系。（假设公网IP：123.206.15.88）</li> <li>第二步：配置公网IP与指定服务器的转发规则。</li> <li>第二步：右边家庭，如果想要访问某个公司服务器上的网网站，只需要执行指定IP：123.206.15.88，运营商就会根据IP找到与之关联的公司专线，并通过公司路由器、防火墙等设备找到指定的服务器。</li></ul> <p>按理说，每个从运营商接入网的用户都可以有一个外网IP，但由于全球用户太多而IP根本就不够分配，所以，运营商网络会进行划分，让多个家庭宽带用户共用一个公网IP（动态，可能每次上网公网IP都不一样）。</p> <p>让家庭用户想要通过网络访问访问其他IP时，先发给运营商由运营商向外转发到其他IP。</p> <p>注意：外部用户想要访问家庭宽带的IP时，运营商不会把请求转发到我们的电脑。</p> <img src="assets/image-20210221173632272.png" alt="image-20210221173632272" style="zoom:50%;"> <p>所以，以后如果你想开发一个网站供全球的用户访问，那你就需要做以下几件事：</p> <ul><li>拉专线，申请固定公网IP</li> <li>买一台服务器（就是性能好的电脑）</li> <li>公网IP绑定至此服务器</li> <li>将写好的代码放在服务器上并运行起来</li></ul> <p>这样就可以搞定了...</p> <p><strong>扩展</strong>：IPv4和IPv6</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code>IPv4，长度为 <span class="token number">32</span> 位（<span class="token number">4</span> 个字节）， 格式：A<span class="token punctuation">.</span>B<span class="token punctuation">.</span>C<span class="token punctuation">.</span>D
+IPv6，长度为 <span class="token number">128</span> 位（<span class="token number">16</span> 个字节），用<span class="token string">&quot;:&quot;</span>分成<span class="token number">8</span>段，格式：XXXX<span class="token punctuation">:</span>XXXX<span class="token punctuation">:</span>XXXX<span class="token punctuation">:</span>XXXX<span class="token punctuation">:</span>XXXX<span class="token punctuation">:</span>XXXX<span class="token punctuation">:</span>XXXX<span class="token punctuation">:</span>XXXX（每个X是一个<span class="token number">16</span>进制数）。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="_1-2-4-云服务器"><a href="#_1-2-4-云服务器" class="header-anchor">#</a> 1.2.4 云服务器</h4> <p>大家可能之前听说过：阿里云、腾讯云、亚马逊aws等之类的平台都在搞云服务器，那是个啥？</p> <img src="assets/image-20210207214828047.png" alt="image-20210207214828047" style="zoom:50%;"> <p>简单的说：他们造了一个机房（网吧），买了很多很多的服务器（高性能电脑），然后将他们放在机房，然后通电+通网，主要对外去租赁这些服务器资源，让用户不必再自己  拉专线+配置网络+买服务器。</p> <p>假设，你想要在腾讯云租一台服务器，就可以根据自己的需求去选择配置，腾讯云会根据配置在他的物理机上虚拟出一个服务器，并进行相应的环境初始化并绑定公网固定IP，这样你就可以快速拥有一台可以被大家访问的服务器了。</p> <p>注意：一台性能非常高的物理机虚拟出很多虚拟机，类似于你在自己电脑上通过vmware、parallel等搞出多个虚拟机。</p> <p><img src="/pyblog/public/assets/img/image-20210207215523168.9b7793d7.png" alt="image-20210207215523168"></p> <h4 id="_1-2-5-端口"><a href="#_1-2-5-端口" class="header-anchor">#</a> 1.2.5 端口</h4> <p><img src="/pyblog/public/assets/img/image-20210207221334711.22ee4d81.png" alt="image-20210207221334711"></p> <p>假设，你在腾讯租了一台云服务器（外网IP:123.206.15.88），然后又开发了 2 个网站运行在服务器上。</p> <p>那么问题来了，用户在自己的电脑或手机上如何来分别访问同一台服务器上两个程序呢？</p> <p>其实，在计算机中有一个 <code>端口</code> 的概念，每个程序想要通过网络进行通讯都必须要指定一个端口，例如：</p> <ul><li>网站A：使用8001端口，那么用户在自己电脑上或手机上访问时指定 IP和端口 即可，如： <code>123.206.15.88:8001</code></li> <li>网站B：使用8002端口，那么用户在自己电脑上或手机上访问时指定 IP和端口 即可，如： <code>123.206.15.88:8002</code></li></ul> <p>注意：端口的取值范围：0 ~ 65535，很多端口在计算机的内部已被使用，我们平时自定义时尽量选择5000之后的端口。</p> <p>示例：访问百度</p> <p><img src="/pyblog/public/assets/img/image-20210207230929229.8ed68dc0.png" alt="image-20210207230929229"></p> <p>提示：如果在浏览器上只写IP不写端口，则默认是80端口。</p> <h4 id="_1-2-6-域名"><a href="#_1-2-6-域名" class="header-anchor">#</a> 1.2.6 域名</h4> <p>假设你创业开发了一个网站，用户很难记住你的公网IP：<code>123.206.15.88:80</code>   ``123.206.15.88`。</p> <p>所以，域名就诞生了，让域名和IP创建对应关系，用户只需要记住域名就可以了，例如：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>www.baidu.com   --&gt;  110.242.68.3
+www.taobao.com  --&gt; 121.18.239.232
+...
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>注意：域名只是和IP创建了对应关系，与端口无关 <code>www.baidu.com:80</code>。</p> <p><img src="/pyblog/public/assets/img/image-20210207221334711.22ee4d81.png" alt="image-20210207221334711"></p> <p>在用户在自己的电脑或手机上输入域名去访问时，其实要执行两个步骤：</p> <ul><li>根据域名寻找IP。（寻找IP）</li> <li>获得IP之后，再通过IP再去访问指定服务器。</li></ul> <p>在电脑上属如域名后，寻找IP的过程如下：</p> <ul><li><p>第一步：在自己电脑的DNS缓存记录中寻找 域名对应的IP，如果未命中，则执行下一步。</p></li> <li><p>第二步：在自己电脑的hosts文件中寻找，如果未命中，则执行下一步。</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>- mac系统：/etc/hosts 文件中
+- win系统：C:\Windows\System32\drivers\etc\hosts 文件中
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><div class="language-python line-numbers-mode"><pre class="language-python"><code><span class="token comment"># 内容示例</span>
+<span class="token number">127.0</span><span class="token number">.0</span><span class="token number">.1</span>	localhost
+<span class="token number">255.255</span><span class="token number">.255</span><span class="token number">.255</span>	broadcasthost
+<span class="token number">127.0</span><span class="token number">.0</span><span class="token number">.1</span> kubernetes<span class="token punctuation">.</span>docker<span class="token punctuation">.</span>internal
+<span class="token number">192.168</span><span class="token number">.1</span><span class="token number">.55</span> www<span class="token punctuation">.</span>pythonav<span class="token punctuation">.</span>com
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div></li> <li><p>第三步：在自己电脑上找到DNS配置的地址（本地域名服务器），去这个地址寻找域名对应的IP，如果未命中，则执行下一步。
+<img src="/pyblog/public/assets/img/image-20210207233253951.dd89948e.png" alt="image-20210207233253951"></p> <div class="language-python line-numbers-mode"><pre class="language-python"><code>常见的DNS服务器地址：
+	<span class="token number">114.114</span><span class="token number">.114</span><span class="token number">.114</span>（<span class="token number">114</span> DNS）
+    <span class="token number">223.5</span><span class="token number">.5</span><span class="token number">.5</span>（阿里 AliDNS）
+    <span class="token number">8.8</span><span class="token number">.8</span><span class="token number">.8</span>（Google DNS，随着Google在中国的没落和国内官方的限制，已经不是太好用了）
+    <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+    各大运营商也有相应的DNS服务器<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+    
+如果你选择的是自动获得DNS，那么就会使用本地运营商的DNS服务器了。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div></li> <li><p>第四步：去根域名服务器中询问（全球共13台根域名服务器，距离中国最近的一台是在日本）</p> <p><img src="/pyblog/public/assets/img/image-20210208102929953.06bcce1e.png" alt="image-20210208102929953"></p></li></ul> <p><span style="color:red;"><strong>问题来了</strong></span></p> <p>了解域名是怎么回事之后？现在你如果想要让自己的网站通过域名来访问，应该怎么办呢？【目前了解即可】</p> <ul><li><p>租一个域名</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>ICANN，域名的总管理者（美国一个非营利机构），它仅制定域名政策，注册业务它会授权给一些顶级注册商。
+顶级注册商，可以对外销售域名，但要受国家 互联网络信息中心的管理。例如：中国万网(阿里云收购），中国新网，新网互联，商务中国，中国频道等。
+代理注册商，顶级注册上可以再招一些代理帮助他们卖域名。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p><img src="/pyblog/public/assets/img/image-20210208110607388.98fdd921.png" alt="image-20210208110607388"></p></li> <li><p>备案</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>现在国内注册域名后，需要进行备案（提交一些网站、个人或企业 等信息）后才能使用。
+注册成功后，可按照引导备案：https://beian.aliyun.com/
+
+注意：国外的域名无需备案就能使用。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div></li> <li><p>域名解析</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>让域名和IP创建关联关系，并将关系同步到相关：本地域名服务器 和 根域名服务器（含顶级和二级域名服务器）。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p><img src="/pyblog/public/assets/img/image-20210208110829796.a2c43c03.png" alt="image-20210208110829796"></p> <p><img src="/pyblog/public/assets/img/image-20210208110938038.1197fef2.png" alt="image-20210208110938038"></p></li></ul> <h2 id="_2-网络编程"><a href="#_2-网络编程" class="header-anchor">#</a> 2. 网络编程</h2> <p><img src="/pyblog/public/assets/img/image-20210207221334711.22ee4d81.png" alt="image-20210207221334711"></p> <p>Python中内置了一个socket模块，可以快速实现网络之间进行传输数据。例如：</p> <ul><li><p>服务端，放在左边云服务器中（有固定IP）</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code><span class="token keyword">import</span> socket
+
+<span class="token comment"># 1.监听本机的IP和端口</span>
+sock <span class="token operator">=</span> socket<span class="token punctuation">.</span>socket<span class="token punctuation">(</span>socket<span class="token punctuation">.</span>AF_INET<span class="token punctuation">,</span> socket<span class="token punctuation">.</span>SOCK_STREAM<span class="token punctuation">)</span>
+sock<span class="token punctuation">.</span>bind<span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token string">'123.206.15.88'</span><span class="token punctuation">,</span> <span class="token number">8001</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment"># IP,端口</span>
+sock<span class="token punctuation">.</span>listen<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span> <span class="token comment"># 支持排队等待5人</span>
+
+<span class="token keyword">while</span> <span class="token boolean">True</span><span class="token punctuation">:</span>
+    <span class="token comment"># 2.等待，有人来连接（阻塞）</span>
+    conn<span class="token punctuation">,</span> addr <span class="token operator">=</span> sock<span class="token punctuation">.</span>accept<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment"># 等待客户端来连接（阻塞）</span>
+
+    <span class="token comment"># 3.等待，连接者发送消息（阻塞）</span>
+    client_data <span class="token operator">=</span> conn<span class="token punctuation">.</span>recv<span class="token punctuation">(</span><span class="token number">1024</span><span class="token punctuation">)</span> <span class="token comment"># 等待接收客户端发来数据</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>client_data<span class="token punctuation">.</span>decode<span class="token punctuation">(</span><span class="token string">'utf-8'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment"># 字节</span>
+
+    <span class="token comment"># 4.给连接者回复消息</span>
+    conn<span class="token punctuation">.</span>sendall<span class="token punctuation">(</span><span class="token string">&quot;hello world&quot;</span><span class="token punctuation">.</span>encode<span class="token punctuation">(</span><span class="token string">'utf-8'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+    <span class="token comment"># 5.关闭连接</span>
+    conn<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 6.停止服务端程序</span>
+sock<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br></div></div></li> <li><p>客户端，放在右边用户电脑上</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code><span class="token keyword">import</span> socket
+
+<span class="token comment"># 1. 向指定IP发送连接请求</span>
+client <span class="token operator">=</span> socket<span class="token punctuation">.</span>socket<span class="token punctuation">(</span><span class="token punctuation">)</span>
+client<span class="token punctuation">.</span>connect<span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token string">'123.206.15.88'</span><span class="token punctuation">,</span> <span class="token number">8001</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment"># 向服务端发起连接（阻塞）10s</span>
+
+<span class="token comment"># 2. 连接成功之后，发送消息</span>
+client<span class="token punctuation">.</span>sendall<span class="token punctuation">(</span><span class="token string">'hello'</span><span class="token punctuation">.</span>encode<span class="token punctuation">(</span><span class="token string">'utf-8'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 3. 等待，消息的回复（阻塞）</span>
+reply <span class="token operator">=</span> client<span class="token punctuation">.</span>recv<span class="token punctuation">(</span><span class="token number">1024</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>reply<span class="token punctuation">)</span>
+
+<span class="token comment"># 4. 关闭连接</span>
+client<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div></li></ul> <p>上述示例需要借助于互联网，你至少需要租一台云服务器才能通信。</p> <p>为了节省学习成本，大家可以在自己电脑上模拟【服务端】和【客户端】，等以后项目开发完毕后，再租服务器并部署到服务器上。</p> <p>注意：在自己本地运行上述代码时，要监听和连接时的IP地址。</p> <p><img src="/pyblog/public/assets/img/image-20210208164809572.d7ed39fb.png" alt="image-20210208164809572"></p> <p><img src="/pyblog/public/assets/img/image-20210221190543727.c88c6eb8.png" alt="image-20210221190543727"></p> <p><img src="/pyblog/public/assets/img/image-20210221190426551.5a064a50.png" alt="image-20210221190426551"></p> <p>当然，你也可以把在自己的局域网内找两台电脑，A作为服务端，B作为客户端，这样两者也可以通信。</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code>服务端的代码需修改：监听的IP修改为A的IP地址。
+客户端的代码需修改：连接的IP修改为A的IP地址（客户端要去找到服务端，并与服务端创建连接）。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>注意事项：</p> <ul><li><p>本机：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>服务端IP：127.0.0.1  / 192.168.28.92（局域网IP）
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li> <li><p>局域网：</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code>服务端IP：<span class="token number">192.168</span><span class="token number">.28</span><span class="token number">.92</span>（局域网IP）    
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li> <li><p>互联网</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code>服务端IP：<span class="token number">123.206</span><span class="token number">.15</span><span class="token number">.88</span>（外网IP）
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li></ul> <h3 id="案例-智障客服"><a href="#案例-智障客服" class="header-anchor">#</a> 案例：智障客服</h3> <ul><li><p>服务端</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code><span class="token keyword">import</span> socket
+
+<span class="token comment"># 1.监听本机的IP和端口</span>
+sock <span class="token operator">=</span> socket<span class="token punctuation">.</span>socket<span class="token punctuation">(</span>socket<span class="token punctuation">.</span>AF_INET<span class="token punctuation">,</span> socket<span class="token punctuation">.</span>SOCK_STREAM<span class="token punctuation">)</span>
+sock<span class="token punctuation">.</span>bind<span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token string">'127.0.0.1'</span><span class="token punctuation">,</span> <span class="token number">8001</span><span class="token punctuation">)</span><span class="token punctuation">)</span>  <span class="token comment"># 127.0.0.1 或 查看自己局域网本地IP地址</span>
+sock<span class="token punctuation">.</span>listen<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span>
+
+<span class="token keyword">while</span> <span class="token boolean">True</span><span class="token punctuation">:</span>
+    <span class="token comment"># 2.等待，有人来连接（阻塞）</span>
+    conn<span class="token punctuation">,</span> addr <span class="token operator">=</span> sock<span class="token punctuation">.</span>accept<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;有人来连接了...&quot;</span><span class="token punctuation">)</span>
+
+    <span class="token comment"># 3.连接成功后立即发送</span>
+    conn<span class="token punctuation">.</span>sendall<span class="token punctuation">(</span><span class="token string">&quot;欢迎使用xx系统，请输入您想要办理的业务！&quot;</span><span class="token punctuation">.</span>encode<span class="token punctuation">(</span><span class="token string">&quot;utf-8&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">while</span> <span class="token boolean">True</span><span class="token punctuation">:</span>
+        <span class="token comment"># 3.等待接受信息</span>
+        data <span class="token operator">=</span> conn<span class="token punctuation">.</span>recv<span class="token punctuation">(</span><span class="token number">1024</span><span class="token punctuation">)</span>
+        <span class="token keyword">if</span> <span class="token keyword">not</span> data<span class="token punctuation">:</span>
+            <span class="token keyword">break</span>
+        data_string <span class="token operator">=</span> data<span class="token punctuation">.</span>decode<span class="token punctuation">(</span><span class="token string">&quot;utf-8&quot;</span><span class="token punctuation">)</span>
+
+        <span class="token comment"># 4.回复消息</span>
+        conn<span class="token punctuation">.</span>sendall<span class="token punctuation">(</span><span class="token string">&quot;你说啥？&quot;</span><span class="token punctuation">.</span>encode<span class="token punctuation">(</span><span class="token string">&quot;utf-8&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;断开连接了&quot;</span><span class="token punctuation">)</span>
+    <span class="token comment"># 5.关闭与此人的连接</span>
+    conn<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 6.停止服务端程序</span>
+sock<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br></div></div></li> <li><p>客户端</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code><span class="token keyword">import</span> socket
+
+<span class="token comment"># 1. 向指定IP发送连接请求</span>
+client <span class="token operator">=</span> socket<span class="token punctuation">.</span>socket<span class="token punctuation">(</span>socket<span class="token punctuation">.</span>AF_INET<span class="token punctuation">,</span> socket<span class="token punctuation">.</span>SOCK_STREAM<span class="token punctuation">)</span>
+client<span class="token punctuation">.</span>connect<span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token string">'127.0.0.1'</span><span class="token punctuation">,</span> <span class="token number">8001</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 2.连接成功后，获取系统登录信息</span>
+message <span class="token operator">=</span> client<span class="token punctuation">.</span>recv<span class="token punctuation">(</span><span class="token number">1024</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>message<span class="token punctuation">.</span>decode<span class="token punctuation">(</span><span class="token string">&quot;utf-8&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token keyword">while</span> <span class="token boolean">True</span><span class="token punctuation">:</span>
+    content <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">&quot;请输入(q/Q退出)：&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">if</span> content<span class="token punctuation">.</span>upper<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'Q'</span><span class="token punctuation">:</span>
+        <span class="token keyword">break</span>
+    client<span class="token punctuation">.</span>sendall<span class="token punctuation">(</span>content<span class="token punctuation">.</span>encode<span class="token punctuation">(</span><span class="token string">&quot;utf-8&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+    <span class="token comment"># 3. 等待，消息的回复</span>
+    reply <span class="token operator">=</span> client<span class="token punctuation">.</span>recv<span class="token punctuation">(</span><span class="token number">1024</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>reply<span class="token punctuation">.</span>decode<span class="token punctuation">(</span><span class="token string">&quot;utf-8&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 关闭连接，关闭连接时会向服务端发送空数据。</span>
+client<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div></li></ul> <h3 id="案例-文件上传"><a href="#案例-文件上传" class="header-anchor">#</a> 案例：文件上传</h3> <ul><li><p>服务端</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code><span class="token keyword">import</span> socket
+
+sock <span class="token operator">=</span> socket<span class="token punctuation">.</span>socket<span class="token punctuation">(</span>socket<span class="token punctuation">.</span>AF_INET<span class="token punctuation">,</span> socket<span class="token punctuation">.</span>SOCK_STREAM<span class="token punctuation">)</span>
+sock<span class="token punctuation">.</span>bind<span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token string">'127.0.0.1'</span><span class="token punctuation">,</span> <span class="token number">8001</span><span class="token punctuation">)</span><span class="token punctuation">)</span>  <span class="token comment"># 127.0.0.1 或 查看自己局域网本地IP地址</span>
+sock<span class="token punctuation">.</span>listen<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span>
+
+conn<span class="token punctuation">,</span> addr <span class="token operator">=</span> sock<span class="token punctuation">.</span>accept<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 接收文件大小</span>
+data <span class="token operator">=</span> conn<span class="token punctuation">.</span>recv<span class="token punctuation">(</span><span class="token number">1024</span><span class="token punctuation">)</span>
+total_file_size <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span>data<span class="token punctuation">.</span>decode<span class="token punctuation">(</span><span class="token string">'utf-8'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 接收文件内容</span>
+file_object <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">'xxx.png'</span><span class="token punctuation">,</span> mode<span class="token operator">=</span><span class="token string">'wb'</span><span class="token punctuation">)</span>
+recv_size <span class="token operator">=</span> <span class="token number">0</span>
+<span class="token keyword">while</span> <span class="token boolean">True</span><span class="token punctuation">:</span>
+    <span class="token comment"># 每次最多接收1024字节</span>
+    data <span class="token operator">=</span> conn<span class="token punctuation">.</span>recv<span class="token punctuation">(</span><span class="token number">1024</span><span class="token punctuation">)</span>
+    file_object<span class="token punctuation">.</span>write<span class="token punctuation">(</span>data<span class="token punctuation">)</span>
+    file_object<span class="token punctuation">.</span>flush<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    recv_size <span class="token operator">+=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span>
+    <span class="token comment"># 上传完成</span>
+    <span class="token keyword">if</span> recv_size <span class="token operator">==</span> total_file_size<span class="token punctuation">:</span>
+        <span class="token keyword">break</span>
+
+<span class="token comment"># 接收完毕，关闭连接</span>
+conn<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
+sock<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br></div></div></li> <li><p>客户端</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code><span class="token keyword">import</span> time
+<span class="token keyword">import</span> os
+<span class="token keyword">import</span> socket
+
+client <span class="token operator">=</span> socket<span class="token punctuation">.</span>socket<span class="token punctuation">(</span><span class="token punctuation">)</span>
+client<span class="token punctuation">.</span>connect<span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token string">'127.0.0.1'</span><span class="token punctuation">,</span> <span class="token number">8001</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+file_path <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">&quot;请输入要上传的文件：&quot;</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 先发送文件大小</span>
+file_size <span class="token operator">=</span> os<span class="token punctuation">.</span>stat<span class="token punctuation">(</span>file_path<span class="token punctuation">)</span><span class="token punctuation">.</span>st_size
+client<span class="token punctuation">.</span>sendall<span class="token punctuation">(</span><span class="token builtin">str</span><span class="token punctuation">(</span>file_size<span class="token punctuation">)</span><span class="token punctuation">.</span>encode<span class="token punctuation">(</span><span class="token string">'utf-8'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;准备...&quot;</span><span class="token punctuation">)</span>
+time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;开始上传..&quot;</span><span class="token punctuation">)</span>
+file_object <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span>file_path<span class="token punctuation">,</span> mode<span class="token operator">=</span><span class="token string">'rb'</span><span class="token punctuation">)</span>
+read_size <span class="token operator">=</span> <span class="token number">0</span>
+<span class="token keyword">while</span> <span class="token boolean">True</span><span class="token punctuation">:</span>
+    chunk <span class="token operator">=</span> file_object<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token number">1024</span><span class="token punctuation">)</span> <span class="token comment"># 每次读取1024字节</span>
+    client<span class="token punctuation">.</span>sendall<span class="token punctuation">(</span>chunk<span class="token punctuation">)</span>
+    read_size <span class="token operator">+=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>chunk<span class="token punctuation">)</span>
+    <span class="token keyword">if</span> read_size <span class="token operator">==</span> file_size<span class="token punctuation">:</span>
+        <span class="token keyword">break</span>
+
+client<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br></div></div></li></ul> <h2 id="_3-b-s和c-s架构"><a href="#_3-b-s和c-s架构" class="header-anchor">#</a> 3. B/S和C/S架构</h2> <p><img src="/pyblog/public/assets/img/image-20210207221334711.22ee4d81.png" alt="image-20210207221334711"></p> <p>平时在开发或与人沟通时，经常会有人提到b/s和c/s架构，他们是啥意思呢？</p> <ul><li><p>C/S架构，是Client和Server的简称。开发这种架构的程序意味着你即需要开发客户端也需要开发服务端。</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code>例如：你电脑的上QQ、百度网盘、钉钉、QQ音乐 等安装在电脑上的软件。
+
+服务端：互联网公司会开发一个程序放在他们的服务器上，用于给客户端提供数据支持。
+客户端：大家在电脑安装的相关程序，内部会连接服务端进行收发数据并提供 交互和展示的功能。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div></li> <li><p>B/S架构，是Browser和Server的简称。开发这种架构的程序意味着你开发服务端即可，客户端用用户电脑上的浏览器来代替。</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>例如：淘宝、京东等网站。
+
+服务端：互联网公司开发一个网站，放在他们的服务器上。
+客户端：不需要开发，用现成的浏览器即可。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div></li></ul> <p>简而言之，B/S架构就是开发网站；C/S架构就是开发安装在电脑的软件。</p> <h2 id="总结"><a href="#总结" class="header-anchor">#</a> 总结</h2> <ol><li>了解常见设备和网络架构。</li> <li>掌握常见网络词汇的意思。</li> <li>了解B/S和C/S架构的区别。</li> <li>基于Python的socket模块实现网络编程。</li></ol> <h2 id="作业"><a href="#作业" class="header-anchor">#</a> 作业</h2> <ol><li><p>简述 二层交换机 &amp; 路由器 &amp; 三层交换机 的作用。</p></li> <li><p>简述常见词：IP、子网掩码、DHCP、公网IP、端口、域名的作用。</p></li> <li><p>实现远程用户认证系统。</p> <div class="language-python line-numbers-mode"><pre class="language-python"><code>客户端：
+	<span class="token number">1.</span> 运行程序，连接服务端并获取服务端发送的欢迎使用xx系统信息。
+    <span class="token number">2.</span> 输入用户名和密码，并将用户名和密码发送到服务端去校验。
+    <span class="token number">3.</span> 登录失败，重试（Q退出）。
+    <span class="token number">4.</span> 登录成功，进入系统，提示登录成功
+服务端：
+	<span class="token number">1.</span> 客户端连接上服务端，返回 欢迎使用xx系统信息。
+    <span class="token number">2.</span> 等待客户端发送用户名和密码进行校验（用户名和密码在文件中）
+    <span class="token number">3.</span> 登录失败，返回错误信息。
+    <span class="token number">4.</span> 登录成功，返回成功提示的内容。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div></li></ol></div></section> <footer class="page-edit"><!----> <!----></footer> <!----> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:12rem;" data-v-b57cc07c data-v-7dd95ae2><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/oop/04.html#_1-必备基础" class="sidebar-link reco-side-_1-必备基础" data-v-b57cc07c>1.必备基础</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/oop/04.html#_1-1-网络架构" class="sidebar-link reco-side-_1-1-网络架构" data-v-b57cc07c>1.1 网络架构</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/oop/04.html#_1-2-网络核心词汇" class="sidebar-link reco-side-_1-2-网络核心词汇" data-v-b57cc07c>1.2 网络核心词汇</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/oop/04.html#_2-网络编程" class="sidebar-link reco-side-_2-网络编程" data-v-b57cc07c>2. 网络编程</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/oop/04.html#案例-智障客服" class="sidebar-link reco-side-案例-智障客服" data-v-b57cc07c>案例：智障客服</a></li><li class="level-3" data-v-b57cc07c><a href="/pyblog/public/blogs/oop/04.html#案例-文件上传" class="sidebar-link reco-side-案例-文件上传" data-v-b57cc07c>案例：文件上传</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/oop/04.html#_3-b-s和c-s架构" class="sidebar-link reco-side-_3-b-s和c-s架构" data-v-b57cc07c>3. B/S和C/S架构</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/oop/04.html#总结" class="sidebar-link reco-side-总结" data-v-b57cc07c>总结</a></li><li class="level-2" data-v-b57cc07c><a href="/pyblog/public/blogs/oop/04.html#作业" class="sidebar-link reco-side-作业" data-v-b57cc07c>作业</a></li></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/pyblog/public/assets/js/app.33b33158.js" defer></script><script src="/pyblog/public/assets/js/4.2d1ead4f.js" defer></script><script src="/pyblog/public/assets/js/1.c066e305.js" defer></script><script src="/pyblog/public/assets/js/6.726a9c0c.js" defer></script>
+  </body>
+</html>
